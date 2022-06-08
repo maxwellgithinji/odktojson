@@ -1,0 +1,93 @@
+<data xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" id="S_1C" version="1.0.0">
+	<SIMS.ASSESSMENT_DETAILS>
+		<SIMS.CS_ASSR_NAME>Maxgit</SIMS.CS_ASSR_NAME>
+		<SIMS.CS_ASMT_COUNTY>nairobi</SIMS.CS_ASMT_COUNTY>
+		<SIMS.CS_ASMT_SUB_COUNTY>embakasi_east</SIMS.CS_ASMT_SUB_COUNTY>
+		<SIMS.CS_ASMT_FACILITY>17723</SIMS.CS_ASMT_FACILITY>
+		<SIMS.CS_ASMT_FACILITY_MFL>17723</SIMS.CS_ASMT_FACILITY_MFL>
+		<SIMS.CS_ASMT_TYPE>comprehensive</SIMS.CS_ASMT_TYPE>
+		<SIMS.CS_ASMT_DATE>2022-06-07</SIMS.CS_ASMT_DATE>
+		<SIMS.CS_ASMT_START_TIME>10:45:00.000+03:00</SIMS.CS_ASMT_START_TIME>
+		<SIMS.CS_ASMT_END_TIME>10:45:00.000+03:00</SIMS.CS_ASMT_END_TIME>
+		<SIMS.CS_ASMT_LOCATION>-15.971892 -50.565021 0.2 0.3</SIMS.CS_ASMT_LOCATION>
+	</SIMS.ASSESSMENT_DETAILS>
+	<S_01_19>
+		<SIMS.S_01_19_DQA-Activities_STANDARD/>
+		<SIMS.S_01_19_DQA-Activities_Q1_RESP>yes</SIMS.S_01_19_DQA-Activities_Q1_RESP>
+		<SIMS.S_01_19_DQA-Activities_Q2_T-NUM>SIMS.S_01_19_DQA-Activities_Q2_CB1 SIMS.S_01_19_DQA-Activities_Q2_CB2 SIMS.S_01_19_DQA-Activities_Q2_CB3 SIMS.S_01_19_DQA-Activities_Q2_CB4</SIMS.S_01_19_DQA-Activities_Q2_T-NUM>
+		<SIMS.S_01_19_DQA-Activities_COMM>test coment</SIMS.S_01_19_DQA-Activities_COMM>
+		<SIMS.S_01_19_DQA-Activities_SCORE>green</SIMS.S_01_19_DQA-Activities_SCORE>
+	</S_01_19>
+	<S_01_20>
+		<SIMS.S_01_20_PerfData_STANDARD/>
+		<SIMS.S_01_20_PerfData_Q1_RESP>yes</SIMS.S_01_20_PerfData_Q1_RESP>
+		<SIMS.S_01_20_PerfData_Q2_RESP>no</SIMS.S_01_20_PerfData_Q2_RESP>
+		<SIMS.S_01_20_PerfData_Q3_RESP>yes</SIMS.S_01_20_PerfData_Q3_RESP>
+		<SIMS.S_01_20_PerfData_COMM>test comment section 2</SIMS.S_01_20_PerfData_COMM>
+		<SIMS.S_01_20_PerfData_SCORE>yellow</SIMS.S_01_20_PerfData_SCORE>
+	</S_01_20>
+	<S_01_21>
+		<SIMS.S_01_21_DataRepConTX_STANDARD/>
+		<SIMS.S_01_21_DataRepConTX_INSTRUCTIONS/>
+		<SIMS.S_01_21_DataRepConTX_NA>OK</SIMS.S_01_21_DataRepConTX_NA>
+		<SIMS.S_01_21_DataRepConTX_Q1_RESP>yes</SIMS.S_01_21_DataRepConTX_Q1_RESP>
+		<SIMS.S_01_21_DataRepConTX_Q2_PERC>
+			<generated_table_list_label_34/>
+			<SIMS.S_01_21_DataRepConTX_Q2_A>2</SIMS.S_01_21_DataRepConTX_Q2_A>
+			<SIMS.S_01_21_DataRepConTX_Q2_B>3</SIMS.S_01_21_DataRepConTX_Q2_B>
+			<SIMS.S_01_21_DataRepConTX_Q2_C>-1</SIMS.S_01_21_DataRepConTX_Q2_C>
+			<SIMS.S_01_21_DataRepConTX_Q2_D>33.33</SIMS.S_01_21_DataRepConTX_Q2_D>
+		</SIMS.S_01_21_DataRepConTX_Q2_PERC>
+		<SIMS.S_01_21_DataRepConTX_COMM>test comment</SIMS.S_01_21_DataRepConTX_COMM>
+		<SIMS.S_01_21_DataRepConTX_SCORE>gray</SIMS.S_01_21_DataRepConTX_SCORE>
+	</S_01_21>
+	<S_01_22>
+		<SIMS.S_01_22_DataRepConHTS_STANDARD/>
+		<SIMS.S_01_22_DataRepConHTS_INSTRUCTIONS/>
+		<SIMS.S_01_22_DataRepConHTS_NA>OK</SIMS.S_01_22_DataRepConHTS_NA>
+		<SIMS.S_01_22_DataRepConHTS_Q1_RESP>yes</SIMS.S_01_22_DataRepConHTS_Q1_RESP>
+		<SIMS.S_01_22_DataRepConHTS_Q2_PERC>
+			<generated_table_list_label_48/>
+			<SIMS.S_01_22_DataRepConHTS_Q2_A>5</SIMS.S_01_22_DataRepConHTS_Q2_A>
+			<SIMS.S_01_22_DataRepConHTS_Q2_B>4</SIMS.S_01_22_DataRepConHTS_Q2_B>
+			<SIMS.S_01_22_DataRepConHTS_Q2_C>1</SIMS.S_01_22_DataRepConHTS_Q2_C>
+			<SIMS.S_01_22_DataRepConHTS_Q2_D>25</SIMS.S_01_22_DataRepConHTS_Q2_D>
+		</SIMS.S_01_22_DataRepConHTS_Q2_PERC>
+		<SIMS.S_01_22_DataRepConHTS_COMM>Test comment</SIMS.S_01_22_DataRepConHTS_COMM>
+		<SIMS.S_01_22_DataRepConHTS_SCORE>gray</SIMS.S_01_22_DataRepConHTS_SCORE>
+	</S_01_22>
+	<S_01_23>
+		<SIMS.S_01_23_DataRepConPMTCT_STANDARD/>
+		<SIMS.S_01_23_DataRepConPMTCT_INSTRUCTIONS/>
+		<SIMS.S_01_23_DataRepConPMTCT_NA>OK</SIMS.S_01_23_DataRepConPMTCT_NA>
+		<SIMS.S_01_23_DataRepConPMTCT_Q1_RESP>yes</SIMS.S_01_23_DataRepConPMTCT_Q1_RESP>
+		<SIMS.S_01_23_DataRepConPMTCT_Q2_PERC>
+			<generated_table_list_label_62/>
+			<SIMS.S_01_23_DataRepConPMTCT_Q2_A>4</SIMS.S_01_23_DataRepConPMTCT_Q2_A>
+			<SIMS.S_01_23_DataRepConPMTCT_Q2_B>5</SIMS.S_01_23_DataRepConPMTCT_Q2_B>
+			<SIMS.S_01_23_DataRepConPMTCT_Q2_C>-1</SIMS.S_01_23_DataRepConPMTCT_Q2_C>
+			<SIMS.S_01_23_DataRepConPMTCT_Q2_D>20</SIMS.S_01_23_DataRepConPMTCT_Q2_D>
+		</SIMS.S_01_23_DataRepConPMTCT_Q2_PERC>
+		<SIMS.S_01_23_DataRepConPMTCT_COMM>test comment</SIMS.S_01_23_DataRepConPMTCT_COMM>
+		<SIMS.S_01_23_DataRepConPMTCT_SCORE>gray</SIMS.S_01_23_DataRepConPMTCT_SCORE>
+	</S_01_23>
+	<S_01_24>
+		<SIMS.S_01_24_DataRepConVMMC_STANDARD/>
+		<SIMS.S_01_24_DataRepConVMMC_INSTRUCTIONS/>
+		<SIMS.S_01_24_DataRepConVMMC_NA/>
+		<SIMS.S_01_24_DataRepConVMMC_Q1_RESP>yes</SIMS.S_01_24_DataRepConVMMC_Q1_RESP>
+		<SIMS.S_01_24_DataRepConVMMC_Q2_PERC>
+			<generated_table_list_label_76/>
+			<SIMS.S_01_24_DataRepConVMMC_Q2_A>1</SIMS.S_01_24_DataRepConVMMC_Q2_A>
+			<SIMS.S_01_24_DataRepConVMMC_Q2_B>5</SIMS.S_01_24_DataRepConVMMC_Q2_B>
+			<SIMS.S_01_24_DataRepConVMMC_Q2_C>-4</SIMS.S_01_24_DataRepConVMMC_Q2_C>
+			<SIMS.S_01_24_DataRepConVMMC_Q2_D>80</SIMS.S_01_24_DataRepConVMMC_Q2_D>
+		</SIMS.S_01_24_DataRepConVMMC_Q2_PERC>
+		<SIMS.S_01_24_DataRepConVMMC_COMM>Test comment</SIMS.S_01_24_DataRepConVMMC_COMM>
+		<SIMS.S_01_24_DataRepConVMMC_SCORE>red</SIMS.S_01_24_DataRepConVMMC_SCORE>
+	</S_01_24>
+	<meta>
+		<instanceID>uuid:ae08abbe-22a3-465e-9990-9464a8839665</instanceID>
+		<instanceName>St Barkita Dispensary Utawala-17723-Maxgit-2022-06-07</instanceName>
+	</meta>
+</data>

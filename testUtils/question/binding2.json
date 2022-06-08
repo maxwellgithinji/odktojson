@@ -1,0 +1,550 @@
+{
+    "Bindings": [
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/SIMS.ASSESSMENT_DETAILS",
+        "Type": "",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASSR_NAME",
+        "Type": "string",
+        "Required": "true()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_COUNTY",
+        "Type": "string",
+        "Required": "true()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_SUB_COUNTY",
+        "Type": "string",
+        "Required": "true()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_FACILITY",
+        "Type": "string",
+        "Required": "true()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_FACILITY_MFL",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_TYPE",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_DATE",
+        "Type": "date",
+        "Required": "true()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_START_TIME",
+        "Type": "time",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_END_TIME",
+        "Type": "time",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_LOCATION",
+        "Type": "geopoint",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_19",
+        "Type": "",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_19/SIMS.S_01_19_DQA-Activities_STANDARD",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_19/SIMS.S_01_19_DQA-Activities_Q1_RESP",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_19/SIMS.S_01_19_DQA-Activities_Q2_T-NUM",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_19/SIMS.S_01_19_DQA-Activities_COMM",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_19/SIMS.S_01_19_DQA-Activities_SCORE",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_20",
+        "Type": "",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_20/SIMS.S_01_20_PerfData_STANDARD",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_20/SIMS.S_01_20_PerfData_Q1_RESP",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_20/SIMS.S_01_20_PerfData_Q2_RESP",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_20/SIMS.S_01_20_PerfData_Q3_RESP",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_20/SIMS.S_01_20_PerfData_COMM",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_20/SIMS.S_01_20_PerfData_SCORE",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_21",
+        "Type": "",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_21/SIMS.S_01_21_DataRepConTX_STANDARD",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_21/SIMS.S_01_21_DataRepConTX_INSTRUCTIONS",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_21/SIMS.S_01_21_DataRepConTX_NA",
+        "Type": "",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_21/SIMS.S_01_21_DataRepConTX_Q1_RESP",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_21/SIMS.S_01_21_DataRepConTX_Q2_PERC",
+        "Type": "",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_21/SIMS.S_01_21_DataRepConTX_Q2_PERC/generated_table_list_label_34",
+        "Type": "string",
+        "Required": ""
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_21/SIMS.S_01_21_DataRepConTX_Q2_PERC/SIMS.S_01_21_DataRepConTX_Q2_A",
+        "Type": "int",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_21/SIMS.S_01_21_DataRepConTX_Q2_PERC/SIMS.S_01_21_DataRepConTX_Q2_B",
+        "Type": "int",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_21/SIMS.S_01_21_DataRepConTX_Q2_PERC/SIMS.S_01_21_DataRepConTX_Q2_C",
+        "Type": "int",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_21/SIMS.S_01_21_DataRepConTX_Q2_PERC/SIMS.S_01_21_DataRepConTX_Q2_D",
+        "Type": "decimal",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_21/SIMS.S_01_21_DataRepConTX_COMM",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_21/SIMS.S_01_21_DataRepConTX_SCORE",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_22",
+        "Type": "",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_22/SIMS.S_01_22_DataRepConHTS_STANDARD",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_22/SIMS.S_01_22_DataRepConHTS_INSTRUCTIONS",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_22/SIMS.S_01_22_DataRepConHTS_NA",
+        "Type": "",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q1_RESP",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q2_PERC",
+        "Type": "",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q2_PERC/generated_table_list_label_48",
+        "Type": "string",
+        "Required": ""
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q2_PERC/SIMS.S_01_22_DataRepConHTS_Q2_A",
+        "Type": "int",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q2_PERC/SIMS.S_01_22_DataRepConHTS_Q2_B",
+        "Type": "int",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q2_PERC/SIMS.S_01_22_DataRepConHTS_Q2_C",
+        "Type": "int",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q2_PERC/SIMS.S_01_22_DataRepConHTS_Q2_D",
+        "Type": "decimal",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_22/SIMS.S_01_22_DataRepConHTS_COMM",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_22/SIMS.S_01_22_DataRepConHTS_SCORE",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_23",
+        "Type": "",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_STANDARD",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_INSTRUCTIONS",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_NA",
+        "Type": "",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q1_RESP",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q2_PERC",
+        "Type": "",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q2_PERC/generated_table_list_label_62",
+        "Type": "string",
+        "Required": ""
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q2_PERC/SIMS.S_01_23_DataRepConPMTCT_Q2_A",
+        "Type": "int",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q2_PERC/SIMS.S_01_23_DataRepConPMTCT_Q2_B",
+        "Type": "int",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q2_PERC/SIMS.S_01_23_DataRepConPMTCT_Q2_C",
+        "Type": "int",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q2_PERC/SIMS.S_01_23_DataRepConPMTCT_Q2_D",
+        "Type": "decimal",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_COMM",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_SCORE",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_24",
+        "Type": "",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_STANDARD",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_INSTRUCTIONS",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_NA",
+        "Type": "",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q1_RESP",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q2_PERC",
+        "Type": "",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q2_PERC/generated_table_list_label_76",
+        "Type": "string",
+        "Required": ""
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q2_PERC/SIMS.S_01_24_DataRepConVMMC_Q2_A",
+        "Type": "int",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q2_PERC/SIMS.S_01_24_DataRepConVMMC_Q2_B",
+        "Type": "int",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q2_PERC/SIMS.S_01_24_DataRepConVMMC_Q2_C",
+        "Type": "int",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q2_PERC/SIMS.S_01_24_DataRepConVMMC_Q2_D",
+        "Type": "decimal",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_COMM",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_SCORE",
+        "Type": "string",
+        "Required": "false()"
+      },
+      {
+        "Preload": "uid",
+        "PreloadParams": "",
+        "NodeSet": "/data/meta/instanceID",
+        "Type": "string",
+        "Required": ""
+      },
+      {
+        "Preload": "",
+        "PreloadParams": "",
+        "NodeSet": "/data/meta/instanceName",
+        "Type": "string",
+        "Required": ""
+      }
+    ]
+  }

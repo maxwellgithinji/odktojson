@@ -1,0 +1,3625 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:odk="http://www.opendatakit.org/xforms" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<h:head>
+		<h:title>ALL SITES-DATA QUALITY</h:title>
+		<model odk:xforms-version="1.0.0">
+			<instance>
+				<data id="S_1C" version="1.0.0">
+					<SIMS.ASSESSMENT_DETAILS>
+						<SIMS.CS_ASSR_NAME/>
+						<SIMS.CS_ASMT_COUNTY/>
+						<SIMS.CS_ASMT_SUB_COUNTY/>
+						<SIMS.CS_ASMT_FACILITY/>
+						<SIMS.CS_ASMT_FACILITY_MFL/>
+						<SIMS.CS_ASMT_TYPE/>
+						<SIMS.CS_ASMT_DATE/>
+						<SIMS.CS_ASMT_START_TIME/>
+						<SIMS.CS_ASMT_END_TIME/>
+						<SIMS.CS_ASMT_LOCATION/>
+					</SIMS.ASSESSMENT_DETAILS>
+					<S_01_19>
+						<SIMS.S_01_19_DQA-Activities_STANDARD/>
+						<SIMS.S_01_19_DQA-Activities_Q1_RESP/>
+						<SIMS.S_01_19_DQA-Activities_Q2_T-NUM/>
+						<SIMS.S_01_19_DQA-Activities_COMM/>
+						<SIMS.S_01_19_DQA-Activities_SCORE>red</SIMS.S_01_19_DQA-Activities_SCORE>
+					</S_01_19>
+					<S_01_20>
+						<SIMS.S_01_20_PerfData_STANDARD/>
+						<SIMS.S_01_20_PerfData_Q1_RESP/>
+						<SIMS.S_01_20_PerfData_Q2_RESP/>
+						<SIMS.S_01_20_PerfData_Q3_RESP/>
+						<SIMS.S_01_20_PerfData_COMM/>
+						<SIMS.S_01_20_PerfData_SCORE>red</SIMS.S_01_20_PerfData_SCORE>
+					</S_01_20>
+					<S_01_21>
+						<SIMS.S_01_21_DataRepConTX_STANDARD/>
+						<SIMS.S_01_21_DataRepConTX_INSTRUCTIONS/>
+						<SIMS.S_01_21_DataRepConTX_NA/>
+						<SIMS.S_01_21_DataRepConTX_Q1_RESP/>
+						<SIMS.S_01_21_DataRepConTX_Q2_PERC>
+							<generated_table_list_label_34/>
+							<SIMS.S_01_21_DataRepConTX_Q2_A/>
+							<SIMS.S_01_21_DataRepConTX_Q2_B/>
+							<SIMS.S_01_21_DataRepConTX_Q2_C/>
+							<SIMS.S_01_21_DataRepConTX_Q2_D/>
+						</SIMS.S_01_21_DataRepConTX_Q2_PERC>
+						<SIMS.S_01_21_DataRepConTX_COMM/>
+						<SIMS.S_01_21_DataRepConTX_SCORE>red</SIMS.S_01_21_DataRepConTX_SCORE>
+					</S_01_21>
+					<S_01_22>
+						<SIMS.S_01_22_DataRepConHTS_STANDARD/>
+						<SIMS.S_01_22_DataRepConHTS_INSTRUCTIONS/>
+						<SIMS.S_01_22_DataRepConHTS_NA/>
+						<SIMS.S_01_22_DataRepConHTS_Q1_RESP/>
+						<SIMS.S_01_22_DataRepConHTS_Q2_PERC>
+							<generated_table_list_label_48/>
+							<SIMS.S_01_22_DataRepConHTS_Q2_A/>
+							<SIMS.S_01_22_DataRepConHTS_Q2_B/>
+							<SIMS.S_01_22_DataRepConHTS_Q2_C/>
+							<SIMS.S_01_22_DataRepConHTS_Q2_D/>
+						</SIMS.S_01_22_DataRepConHTS_Q2_PERC>
+						<SIMS.S_01_22_DataRepConHTS_COMM/>
+						<SIMS.S_01_22_DataRepConHTS_SCORE>red</SIMS.S_01_22_DataRepConHTS_SCORE>
+					</S_01_22>
+					<S_01_23>
+						<SIMS.S_01_23_DataRepConPMTCT_STANDARD/>
+						<SIMS.S_01_23_DataRepConPMTCT_INSTRUCTIONS/>
+						<SIMS.S_01_23_DataRepConPMTCT_NA/>
+						<SIMS.S_01_23_DataRepConPMTCT_Q1_RESP/>
+						<SIMS.S_01_23_DataRepConPMTCT_Q2_PERC>
+							<generated_table_list_label_62/>
+							<SIMS.S_01_23_DataRepConPMTCT_Q2_A/>
+							<SIMS.S_01_23_DataRepConPMTCT_Q2_B/>
+							<SIMS.S_01_23_DataRepConPMTCT_Q2_C/>
+							<SIMS.S_01_23_DataRepConPMTCT_Q2_D/>
+						</SIMS.S_01_23_DataRepConPMTCT_Q2_PERC>
+						<SIMS.S_01_23_DataRepConPMTCT_COMM/>
+						<SIMS.S_01_23_DataRepConPMTCT_SCORE>red</SIMS.S_01_23_DataRepConPMTCT_SCORE>
+					</S_01_23>
+					<S_01_24>
+						<SIMS.S_01_24_DataRepConVMMC_STANDARD/>
+						<SIMS.S_01_24_DataRepConVMMC_INSTRUCTIONS/>
+						<SIMS.S_01_24_DataRepConVMMC_NA/>
+						<SIMS.S_01_24_DataRepConVMMC_Q1_RESP/>
+						<SIMS.S_01_24_DataRepConVMMC_Q2_PERC>
+							<generated_table_list_label_76/>
+							<SIMS.S_01_24_DataRepConVMMC_Q2_A/>
+							<SIMS.S_01_24_DataRepConVMMC_Q2_B/>
+							<SIMS.S_01_24_DataRepConVMMC_Q2_C/>
+							<SIMS.S_01_24_DataRepConVMMC_Q2_D/>
+						</SIMS.S_01_24_DataRepConVMMC_Q2_PERC>
+						<SIMS.S_01_24_DataRepConVMMC_COMM/>
+						<SIMS.S_01_24_DataRepConVMMC_SCORE>red</SIMS.S_01_24_DataRepConVMMC_SCORE>
+					</S_01_24>
+					<meta>
+						<instanceID/>
+						<instanceName/>
+					</meta>
+				</data>
+			</instance>
+			<instance id="assessment_type">
+				<root>
+					<item>
+						<label>Comprehensive</label>
+						<name>comprehensive</name>
+					</item>
+					<item>
+						<label>Follow-up</label>
+						<name>follow_up</name>
+					</item>
+				</root>
+			</instance>
+			<instance id="cee_score">
+				<root>
+					<item>
+						<label>&lt;span style="color:gray"&gt;Gray&lt;/span&gt;</label>
+						<name>gray</name>
+					</item>
+					<item>
+						<label>&lt;span style="color:red"&gt;Red&lt;/span&gt;</label>
+						<name>red</name>
+					</item>
+					<item>
+						<label>&lt;span style="color:yellow"&gt;Yellow&lt;/span&gt;</label>
+						<name>yellow</name>
+					</item>
+					<item>
+						<label>&lt;span style="color:green"&gt;Green&lt;/span&gt;</label>
+						<name>green</name>
+					</item>
+				</root>
+			</instance>
+			<instance id="yes_no">
+				<root>
+					<item>
+						<label>Yes</label>
+						<name>yes</name>
+					</item>
+					<item>
+						<label>No</label>
+						<name>no</name>
+					</item>
+				</root>
+			</instance>
+			<instance id="counties">
+				<root>
+					<item>
+						<label>Nairobi</label>
+						<name>nairobi</name>
+					</item>
+					<item>
+						<label>Kajiado</label>
+						<name>kajiado</name>
+					</item>
+				</root>
+			</instance>
+			<instance id="sub_counties">
+				<root>
+					<item>
+						<county>nairobi</county>
+						<label>Dagoretti North</label>
+						<name>dagoretti_north</name>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Dagoretti South</label>
+						<name>dagoretti_south</name>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Embakasi Central</label>
+						<name>embakasi_central</name>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Embakasi East</label>
+						<name>embakasi_east</name>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Embakasi North</label>
+						<name>embakasi_north</name>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Embakasi South</label>
+						<name>embakasi_south</name>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Embakasi West</label>
+						<name>embakasi_west</name>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Kajiado Central</label>
+						<name>kajiado_central</name>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Kajiado East</label>
+						<name>kajiado_east</name>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Kajiado North</label>
+						<name>kajiado_north</name>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Kajiado West</label>
+						<name>kajiado_west</name>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kamukunji</label>
+						<name>kamukunji</name>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kasarani</label>
+						<name>kasarani</name>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kibra</label>
+						<name>kibra</name>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Langata</label>
+						<name>langata</name>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Loitokitok</label>
+						<name>loitokitok</name>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Makadara</label>
+						<name>makadara</name>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mathare</label>
+						<name>mathare</name>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Roysambu</label>
+						<name>roysambu</name>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Ruaraka</label>
+						<name>ruaraka</name>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Starehe</label>
+						<name>starehe</name>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Westlands</label>
+						<name>westlands</name>
+					</item>
+				</root>
+			</instance>
+			<instance id="wards">
+				<root>
+					<item>
+						<county>nairobi</county>
+						<label>Airbase</label>
+						<name>airbase</name>
+						<sub_county>kamukunji</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Babandogo</label>
+						<name>babandogo</name>
+						<sub_county>ruaraka</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>California</label>
+						<name>california</name>
+						<sub_county>kamukunji</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Clay City</label>
+						<name>clay_city</name>
+						<sub_county>kasarani</sub_county>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Dalalekutuk</label>
+						<name>dalalekutuk</name>
+						<sub_county>kajiado_central</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Dandora Area I</label>
+						<name>dandora_area_i</name>
+						<sub_county>embakasi_north</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Dandora Area Iv</label>
+						<name>dandora_area_iv</name>
+						<sub_county>embakasi_north</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Eastleigh North</label>
+						<name>eastleigh_north</name>
+						<sub_county>kamukunji</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Eastleigh South</label>
+						<name>eastleigh_south</name>
+						<sub_county>kamukunji</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Embakasi</label>
+						<name>embakasi</name>
+						<sub_county>embakasi_east</sub_county>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Entonet/Lenkism</label>
+						<name>entonet/lenkism</name>
+						<sub_county>loitokitok</sub_county>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Ewuaso Oo Nkidong'i</label>
+						<name>ewuaso_oo_nkidong'i</name>
+						<sub_county>kajiado_west</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Gatina</label>
+						<name>gatina</name>
+						<sub_county>dagoretti_north</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Githurai</label>
+						<name>githurai</name>
+						<sub_county>roysambu</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Harambee</label>
+						<name>harambee</name>
+						<sub_county>makadara</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Hospital</label>
+						<name>hospital</name>
+						<sub_county>mathare</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Huruma</label>
+						<name>huruma</name>
+						<sub_county>mathare</sub_county>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Ildamat</label>
+						<name>ildamat</name>
+						<sub_county>kajiado_central</sub_county>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Iloodokilani</label>
+						<name>iloodokilani</name>
+						<sub_county>kajiado_west</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Imara Daima</label>
+						<name>imara_daima</name>
+						<sub_county>embakasi_south</sub_county>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Imaroro</label>
+						<name>imaroro</name>
+						<sub_county>kajiado_east</sub_county>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Imbrikani/Eselelnkei</label>
+						<name>imbrikani/eselelnkei</name>
+						<sub_county>loitokitok</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kabiro</label>
+						<name>kabiro</name>
+						<sub_county>dagoretti_north</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kahawa</label>
+						<name>kahawa</name>
+						<sub_county>roysambu</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kahawa West</label>
+						<name>kahawa_west</name>
+						<sub_county>roysambu</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kangemi</label>
+						<name>kangemi</name>
+						<sub_county>westlands</sub_county>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Kaputiei North</label>
+						<name>kaputiei_north</name>
+						<sub_county>kajiado_east</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Karen</label>
+						<name>karen</name>
+						<sub_county>langata</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kariobangi North</label>
+						<name>kariobangi_north</name>
+						<sub_county>embakasi_north</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kariobangi South</label>
+						<name>kariobangi_south</name>
+						<sub_county>embakasi_west</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Karura</label>
+						<name>karura</name>
+						<sub_county>westlands</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kasarani</label>
+						<name>kasarani</name>
+						<sub_county>kasarani</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kawangware</label>
+						<name>kawangware</name>
+						<sub_county>dagoretti_north</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kayole Central</label>
+						<name>kayole_central</name>
+						<sub_county>embakasi_central</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kayole North</label>
+						<name>kayole_north</name>
+						<sub_county>embakasi_central</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kayole South</label>
+						<name>kayole_south</name>
+						<sub_county>embakasi_central</sub_county>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Keekonyokie</label>
+						<name>keekonyokie</name>
+						<sub_county>kajiado_west</sub_county>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Kenyawa-poka</label>
+						<name>kenyawa-poka</name>
+						<sub_county>kajiado_east</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kiamaiko</label>
+						<name>kiamaiko</name>
+						<sub_county>mathare</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kileleshwa</label>
+						<name>kileleshwa</name>
+						<sub_county>dagoretti_north</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kilimani</label>
+						<name>kilimani</name>
+						<sub_county>dagoretti_north</sub_county>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Kimana</label>
+						<name>kimana</name>
+						<sub_county>loitokitok</sub_county>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Kitengela</label>
+						<name>kitengela</name>
+						<sub_county>kajiado_east</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kitisuru</label>
+						<name>kitisuru</name>
+						<sub_county>westlands</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Komarock</label>
+						<name>komarock</name>
+						<sub_county>embakasi_central</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Korogocho</label>
+						<name>korogocho</name>
+						<sub_county>ruaraka</sub_county>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Kuku</label>
+						<name>kuku</name>
+						<sub_county>loitokitok</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kwa Njenga</label>
+						<name>kwa_njenga</name>
+						<sub_county>embakasi_south</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kwa Reuben</label>
+						<name>kwa_reuben</name>
+						<sub_county>embakasi_south</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kware</label>
+						<name>kware</name>
+						<sub_county>embakasi_south</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Landimawe</label>
+						<name>landimawe</name>
+						<sub_county>starehe</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Lindi</label>
+						<name>lindi</name>
+						<sub_county>kibra</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Lower Savannah</label>
+						<name>lower_savannah</name>
+						<sub_county>embakasi_east</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mabatini</label>
+						<name>mabatini</name>
+						<sub_county>mathare</sub_county>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Magadi</label>
+						<name>magadi</name>
+						<sub_county>kajiado_west</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Makina</label>
+						<name>makina</name>
+						<sub_county>kibra</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Makongeni</label>
+						<name>makongeni</name>
+						<sub_county>makadara</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Maringo/Hamza</label>
+						<name>maringo/hamza</name>
+						<sub_county>makadara</sub_county>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Matapato North</label>
+						<name>matapato_north</name>
+						<sub_county>kajiado_central</sub_county>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Matapato South</label>
+						<name>matapato_south</name>
+						<sub_county>kajiado_central</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mathare North</label>
+						<name>mathare_north</name>
+						<sub_county>ruaraka</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mihango</label>
+						<name>mihango</name>
+						<sub_county>embakasi_east</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mountain View</label>
+						<name>mountain_view</name>
+						<sub_county>westlands</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mowlem</label>
+						<name>mowlem</name>
+						<sub_county>embakasi_west</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mugumo-ini</label>
+						<name>mugumo-ini</name>
+						<sub_county>langata</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mutu-ini</label>
+						<name>mutu-ini</name>
+						<sub_county>dagoretti_south</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mwiki</label>
+						<name>mwiki</name>
+						<sub_county>kasarani</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Nairobi Central</label>
+						<name>nairobi_central</name>
+						<sub_county>starehe</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Nairobi South</label>
+						<name>nairobi_south</name>
+						<sub_county>starehe</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Nairobi West</label>
+						<name>nairobi_west</name>
+						<sub_county>langata</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Ngando</label>
+						<name>ngando</name>
+						<sub_county>dagoretti_south</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Ngara</label>
+						<name>ngara</name>
+						<sub_county>starehe</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Ngei</label>
+						<name>ngei</name>
+						<sub_county>mathare</sub_county>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Ngong</label>
+						<name>ngong</name>
+						<sub_county>kajiado_north</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Njiru</label>
+						<name>njiru</name>
+						<sub_county>kasarani</sub_county>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Nkaimurunya</label>
+						<name>nkaimurunya</name>
+						<sub_county>kajiado_north</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Nyayo Highrise</label>
+						<name>nyayo_highrise</name>
+						<sub_county>langata</sub_county>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Olkeri</label>
+						<name>olkeri</name>
+						<sub_county>kajiado_north</sub_county>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Oloolua</label>
+						<name>oloolua</name>
+						<sub_county>kajiado_north</sub_county>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Oloosirkon/Sholinke</label>
+						<name>oloosirkon/sholinke</name>
+						<sub_county>kajiado_east</sub_county>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Ongata Rongai</label>
+						<name>ongata_rongai</name>
+						<sub_county>kajiado_north</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Pangani</label>
+						<name>pangani</name>
+						<sub_county>starehe</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Parklands/Highridge</label>
+						<name>parklands/highridge</name>
+						<sub_county>westlands</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Pipeline</label>
+						<name>pipeline</name>
+						<sub_county>embakasi_south</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Pumwani</label>
+						<name>pumwani</name>
+						<sub_county>kamukunji</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Riruta</label>
+						<name>riruta</name>
+						<sub_county>dagoretti_south</sub_county>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Rombo</label>
+						<name>rombo</name>
+						<sub_county>loitokitok</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Roysambu</label>
+						<name>roysambu</name>
+						<sub_county>roysambu</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Ruai</label>
+						<name>ruai</name>
+						<sub_county>kasarani</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Sarang'ombe</label>
+						<name>sarang'ombe</name>
+						<sub_county>kibra</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>South C</label>
+						<name>south_c</name>
+						<sub_county>langata</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Umoja I</label>
+						<name>umoja_i</name>
+						<sub_county>embakasi_west</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Umoja II</label>
+						<name>umoja_ii</name>
+						<sub_county>embakasi_west</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Upper Savannah</label>
+						<name>upper_savannah</name>
+						<sub_county>embakasi_east</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Utalii</label>
+						<name>utalii</name>
+						<sub_county>ruaraka</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Utawala</label>
+						<name>utawala</name>
+						<sub_county>embakasi_east</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Uthiru/Ruthimitu</label>
+						<name>uthiru/ruthimitu</name>
+						<sub_county>dagoretti_south</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Viwandani</label>
+						<name>viwandani</name>
+						<sub_county>makadara</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Waithaka</label>
+						<name>waithaka</name>
+						<sub_county>dagoretti_south</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Woodley/Kenyatta Golf Course</label>
+						<name>woodley/kenyatta_golf_course</name>
+						<sub_county>kibra</sub_county>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Ziwani/Kariokor</label>
+						<name>ziwani/kariokor</name>
+						<sub_county>starehe</sub_county>
+					</item>
+				</root>
+			</instance>
+			<instance id="facilities">
+				<root>
+					<item>
+						<county>nairobi</county>
+						<label>AAR Clinic Sarit Centre (Westlands)</label>
+						<name>16796</name>
+						<sub_county>westlands</sub_county>
+						<ward>parklands/highridge</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>AAR Gwh Health Care Ltd</label>
+						<name>19958</name>
+						<sub_county>dagoretti_north</sub_county>
+						<ward>kilimani</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>ACCESS AFYA KIAMBIU</label>
+						<name>23850</name>
+						<sub_county>kamukunji</sub_county>
+						<ward>eastleigh_south</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>APTC Health Centre</label>
+						<name>12871</name>
+						<sub_county>embakasi_east</sub_county>
+						<ward>mihango</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Access Afya</label>
+						<name>19467</name>
+						<sub_county>starehe</sub_county>
+						<ward>nairobi_south</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Adventist Centre For Care and Support (Kilimani)</label>
+						<name>18535</name>
+						<sub_county>dagoretti_north</sub_county>
+						<ward>kilimani</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Aga Khan Hospital</label>
+						<name>12867</name>
+						<sub_county>westlands</sub_county>
+						<ward>parklands/highridge</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Ajam Mission Health Centre</label>
+						<name>18398</name>
+						<sub_county>kajiado_west</sub_county>
+						<ward>keekonyokie</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Al Amin Nursing Home</label>
+						<name>18769</name>
+						<sub_county>kamukunji</sub_county>
+						<ward>eastleigh_north</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Alice Nursing Home</label>
+						<name>12869</name>
+						<sub_county>embakasi_south</sub_county>
+						<ward>kware</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Alliance Medical Centre</label>
+						<name>17847</name>
+						<sub_county>kamukunji</sub_county>
+						<ward>california</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Amboseli Dispensary</label>
+						<name>14200</name>
+						<sub_county>loitokitok</sub_county>
+						<ward>entonet/lenkism</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Amurt Health Centre</label>
+						<name>12870</name>
+						<sub_county>westlands</sub_county>
+						<ward>mountain_view</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Andulus Medical Clinic</label>
+						<name>18770</name>
+						<sub_county>kamukunji</sub_county>
+						<ward>eastleigh_north</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Arrow Web Maternity and Nursing Home</label>
+						<name>12872</name>
+						<sub_county>embakasi_central</sub_county>
+						<ward>kayole_central</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Aski Medical Clinic</label>
+						<name>12873</name>
+						<sub_county>embakasi_central</sub_county>
+						<ward>kayole_north</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Avenue Hospital</label>
+						<name>12874</name>
+						<sub_county>westlands</sub_county>
+						<ward>parklands/highridge</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>BHESP MOWLEM DICE CLINIC</label>
+						<name>22863</name>
+						<sub_county>embakasi_west</sub_county>
+						<ward>mowlem</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Babadogo (EDARP)</label>
+						<name>12875</name>
+						<sub_county>ruaraka</sub_county>
+						<ward>babandogo</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Babadogo Health Centre</label>
+						<name>12876</name>
+						<sub_county>ruaraka</sub_county>
+						<ward>babandogo</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Babadogo Medical Health Centre</label>
+						<name>12877</name>
+						<sub_county>ruaraka</sub_county>
+						<ward>babandogo</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Bahati Health Centre</label>
+						<name>12879</name>
+						<sub_county>makadara</sub_county>
+						<ward>maringo/hamza</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Baldo Ippolita</label>
+						<name>24270</name>
+						<sub_county>embakasi_south</sub_county>
+						<ward>kware</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Beacon of Hope Clinic (Ongata Rongai)</label>
+						<name>16667</name>
+						<sub_county>kajiado_north</sub_county>
+						<ward>nkaimurunya</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Better Living Hospital</label>
+						<name>23385</name>
+						<sub_county>dagoretti_north</sub_county>
+						<ward>kilimani</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Biafra Lions Clinic</label>
+						<name>12883</name>
+						<sub_county>kamukunji</sub_county>
+						<ward>eastleigh_south</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Biafra Medical Clinic</label>
+						<name>12884</name>
+						<sub_county>kamukunji</sub_county>
+						<ward>eastleigh_south</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Bissil Health Centre</label>
+						<name>14259</name>
+						<sub_county>kajiado_central</sub_county>
+						<ward>matapato_north</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Blessed Medicare Centre</label>
+						<name>21903</name>
+						<sub_county>embakasi_south</sub_county>
+						<ward>kware</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Blissgvs Health Care Pipeline</label>
+						<name>21050</name>
+						<sub_county>embakasi_east</sub_county>
+						<ward>embakasi</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Blue House Dispensary</label>
+						<name>12885</name>
+						<sub_county>kamukunji</sub_county>
+						<ward>eastleigh_north</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Bodaki Medical Clinic</label>
+						<name>18805</name>
+						<sub_county>dagoretti_north</sub_county>
+						<ward>gatina</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Bridging Out-Patient</label>
+						<name>19405</name>
+						<sub_county>roysambu</sub_county>
+						<ward>kahawa_west</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Bristal Park Hospital</label>
+						<name>18271</name>
+						<sub_county>embakasi_east</sub_county>
+						<ward>embakasi</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Brother Andre Medial Centre</label>
+						<name>12887</name>
+						<sub_county>embakasi_north</sub_county>
+						<ward>dandora_area_iv</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Buruburu Medical Clinic</label>
+						<name>12888</name>
+						<sub_county>makadara</sub_county>
+						<ward>harambee</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Cana Family Life Clinic</label>
+						<name>12889</name>
+						<sub_county>makadara</sub_county>
+						<ward>viwandani</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Care Hospital</label>
+						<name>12865</name>
+						<sub_county>kamukunji</sub_county>
+						<ward>california</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Chandaria Health Centre</label>
+						<name>12893</name>
+						<sub_county>dagoretti_south</sub_county>
+						<ward>uthiru/ruthimitu</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Child Doctor Kenya</label>
+						<name>19504</name>
+						<sub_county>kibra</sub_county>
+						<ward>woodley/kenyatta_golf_course</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Chonesus Clinic</label>
+						<name>19035</name>
+						<sub_county>kibra</sub_county>
+						<ward>lindi</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Church Army Medical Clinic</label>
+						<name>18795</name>
+						<sub_county>makadara</sub_county>
+						<ward>maringo/hamza</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Cidi Mukuru Clinic</label>
+						<name>12897</name>
+						<sub_county>embakasi_south</sub_county>
+						<ward>kwa_njenga</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Clinix Health Care</label>
+						<name>23886</name>
+						<sub_county>starehe</sub_county>
+						<ward>nairobi_central</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Columbia Africa Health Care Ltd</label>
+						<name>22146</name>
+						<sub_county>westlands</sub_county>
+						<ward>parklands/highridge</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Conerstone Clinic</label>
+						<name>12903</name>
+						<sub_county>kasarani</sub_county>
+						<ward>njiru</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Coptic Hospital (Ngong Road)</label>
+						<name>12905</name>
+						<sub_county>dagoretti_north</sub_county>
+						<ward>kilimani</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Coptic Medical Clinic</label>
+						<name>12904</name>
+						<sub_county>makadara</sub_county>
+						<ward>viwandani</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Dandora (EDARP) Clinic</label>
+						<name>12911</name>
+						<sub_county>embakasi_west</sub_county>
+						<ward>mowlem</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Dandora I Health Centre</label>
+						<name>12913</name>
+						<sub_county>embakasi_north</sub_county>
+						<ward>dandora_area_i</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Dandora II Health Centre</label>
+						<name>12912</name>
+						<sub_county>embakasi_north</sub_county>
+						<ward>dandora_area_i</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Divine Mercy Kariobangi</label>
+						<name>18388</name>
+						<sub_county>embakasi_west</sub_county>
+						<ward>kariobangi_south</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Diwopa Health Centre</label>
+						<name>12917</name>
+						<sub_county>embakasi_central</sub_county>
+						<ward>kayole_central</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Dorkcare Nursing Home</label>
+						<name>12921</name>
+						<sub_county>kamukunji</sub_county>
+						<ward>eastleigh_north</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Dr Maina Ruga Medical Clinic</label>
+						<name>20106</name>
+						<sub_county>starehe</sub_county>
+						<ward>ngara</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Dr.Charles.J.R.Opondo (landmark plaza)</label>
+						<name>20393</name>
+						<sub_county>dagoretti_north</sub_county>
+						<ward>kilimani</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Dr.K.Gicheru(Upper Hill Centre)</label>
+						<name>20397</name>
+						<sub_county>dagoretti_north</sub_county>
+						<ward>kilimani</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Dr.P.W.Kamau&amp;Associates(Upper Hill Medical Centre)</label>
+						<name>20396</name>
+						<sub_county>dagoretti_north</sub_county>
+						<ward>kilimani</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>EDARP Komarock Health Centre</label>
+						<name>17719</name>
+						<sub_county>embakasi_central</sub_county>
+						<ward>komarock</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>EDARP Njiru Clinic</label>
+						<name>17548</name>
+						<sub_county>kasarani</sub_county>
+						<ward>njiru</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>EDARP Ruai Clinic</label>
+						<name>13169</name>
+						<sub_county>kasarani</sub_county>
+						<ward>ruai</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>EDARP Soweto Health Centre</label>
+						<name>13191</name>
+						<sub_county>embakasi_east</sub_county>
+						<ward>lower_savannah</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Eagle Health Care Solution</label>
+						<name>21146</name>
+						<sub_county>westlands</sub_county>
+						<ward>kangemi</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Eastleigh Health Centre</label>
+						<name>12930</name>
+						<sub_county>kamukunji</sub_county>
+						<ward>airbase</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Edna Maternity</label>
+						<name>12934</name>
+						<sub_county>kamukunji</sub_county>
+						<ward>eastleigh_south</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Embakasi Health Centre</label>
+						<name>12935</name>
+						<sub_county>embakasi_east</sub_county>
+						<ward>embakasi</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Embulbul Catholic Dispensary</label>
+						<name>14445</name>
+						<sub_county>kajiado_north</sub_county>
+						<ward>oloolua</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Emerging Infectious Disease Center</label>
+						<name>21215</name>
+						<sub_county>westlands</sub_county>
+						<ward>parklands/highridge</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Emmanuel Medical Centre</label>
+						<name>18893</name>
+						<sub_county>embakasi_east</sub_county>
+						<ward>lower_savannah</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Entarara Health Centre</label>
+						<name>14467</name>
+						<sub_county>loitokitok</sub_county>
+						<ward>rombo</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Entasopia Health Centre</label>
+						<name>14469</name>
+						<sub_county>kajiado_west</sub_county>
+						<ward>magadi</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Ewuaso Kedong Health Centre</label>
+						<name>14486</name>
+						<sub_county>kajiado_west</sub_county>
+						<ward>ewuaso_oo_nkidong'i</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Family Care Medical Centre &amp; Maternity</label>
+						<name>12942</name>
+						<sub_county>langata</sub_county>
+						<ward>nairobi_west</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Family Life Promotions and Services</label>
+						<name>12941</name>
+						<sub_county>makadara</sub_county>
+						<ward>maringo/hamza</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Farmers choice wellness centre clinic</label>
+						<name>20078</name>
+						<sub_county>roysambu</sub_county>
+						<ward>kahawa</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Fatima Health Centre (Lenkism)</label>
+						<name>14493</name>
+						<sub_county>loitokitok</sub_county>
+						<ward>entonet/lenkism</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Fatima Maternity Hospital</label>
+						<name>14494</name>
+						<sub_county>kajiado_north</sub_county>
+						<ward>nkaimurunya</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Focus Outreach Medical Mission</label>
+						<name>19539</name>
+						<sub_county>westlands</sub_county>
+						<ward>kitisuru</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Fremo Medical Centre</label>
+						<name>18612</name>
+						<sub_county>dagoretti_south</sub_county>
+						<ward>riruta</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Frepals Community Nursing Home</label>
+						<name>12944</name>
+						<sub_county>kibra</sub_county>
+						<ward>lindi</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Gertrudes Childrens Hospital</label>
+						<name>12950</name>
+						<sub_county>westlands</sub_county>
+						<ward>karura</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Githogoro Runda Baptist Clinic (Getrudes Nairobi)</label>
+						<name>18887</name>
+						<sub_county>westlands</sub_county>
+						<ward>karura</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Guru Nanak Hospital</label>
+						<name>12965</name>
+						<sub_county>starehe</sub_county>
+						<ward>ngara</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Gynapaed Dispensary (Kilimani-)</label>
+						<name>12966</name>
+						<sub_county>dagoretti_north</sub_county>
+						<ward>kilimani</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Healthways Medical Centre</label>
+						<name>18278</name>
+						<sub_county>langata</sub_county>
+						<ward>south_c</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Hono Clinic</label>
+						<name>12969</name>
+						<sub_county>makadara</sub_county>
+						<ward>harambee</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Hope Medical Clinic ( Githurai)</label>
+						<name>19278</name>
+						<sub_county>roysambu</sub_county>
+						<ward>githurai</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Hoymas VCT (Nairobi)</label>
+						<name>20063</name>
+						<sub_county>starehe</sub_county>
+						<ward>pangani</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Huruma (EDARP)</label>
+						<name>12973</name>
+						<sub_county>starehe</sub_county>
+						<ward>nairobi_south</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Huruma Lions Dispensary</label>
+						<name>12974</name>
+						<sub_county>mathare</sub_county>
+						<ward>ngei</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Huruma Maternity Hospital</label>
+						<name>12975</name>
+						<sub_county>mathare</sub_county>
+						<ward>huruma</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Illasit Medical Clinic</label>
+						<name>14567</name>
+						<sub_county>loitokitok</sub_county>
+						<ward>rombo</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Imara Health Centre</label>
+						<name>17685</name>
+						<sub_county>embakasi_south</sub_county>
+						<ward>imara_daima</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Immurtot Health Centre</label>
+						<name>14573</name>
+						<sub_county>loitokitok</sub_county>
+						<ward>entonet/lenkism</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Iom Wellness Clinic</label>
+						<name>19471</name>
+						<sub_county>kamukunji</sub_county>
+						<ward>airbase</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Iran Medical Clinic (Ngara)</label>
+						<name>19421</name>
+						<sub_county>starehe</sub_county>
+						<ward>ngara</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Isinet Health Centre</label>
+						<name>14581</name>
+						<sub_county>loitokitok</sub_county>
+						<ward>imbrikani/eselelnkei</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Isinya Health Centre</label>
+						<name>14582</name>
+						<sub_county>kajiado_east</sub_county>
+						<ward>kaputiei_north</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Jahmii Kipawa Medical Centre</label>
+						<name>12986</name>
+						<sub_county>embakasi_north</sub_county>
+						<ward>kariobangi_north</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Jamaa Mission Hospital</label>
+						<name>12984</name>
+						<sub_county>makadara</sub_county>
+						<ward>harambee</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Jamii Medical Clinic Mukuru</label>
+						<name>19446</name>
+						<sub_county>embakasi_south</sub_county>
+						<ward>kwa_njenga</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Jericho Health Centre</label>
+						<name>12988</name>
+						<sub_county>makadara</sub_county>
+						<ward>harambee</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Jerusalem Clinic</label>
+						<name>12989</name>
+						<sub_county>embakasi_west</sub_county>
+						<ward>kariobangi_south</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Jinnah Ave Clinic</label>
+						<name>12990</name>
+						<sub_county>langata</sub_county>
+						<ward>south_c</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Jumuia Hospital Huruma</label>
+						<name>12972</name>
+						<sub_county>mathare</sub_county>
+						<ward>kiamaiko</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kabiro Medical Clinic</label>
+						<name>12995</name>
+						<sub_county>dagoretti_north</sub_county>
+						<ward>kabiro</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kahawa West Health Centre</label>
+						<name>12997</name>
+						<sub_county>roysambu</sub_county>
+						<ward>kahawa</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Kajiado (AIC) Dispensary</label>
+						<name>14650</name>
+						<sub_county>kajiado_central</sub_county>
+						<ward>dalalekutuk</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Kajiado County Referral Hospital</label>
+						<name>14652</name>
+						<sub_county>kajiado_central</sub_county>
+						<ward>ildamat</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kaloleni Dispensary</label>
+						<name>12998</name>
+						<sub_county>makadara</sub_county>
+						<ward>makongeni</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kaloleni Health Servics</label>
+						<name>12999</name>
+						<sub_county>makadara</sub_county>
+						<ward>makongeni</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kamiti Prison Hospital</label>
+						<name>13000</name>
+						<sub_county>roysambu</sub_county>
+						<ward>kahawa_west</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kangemi Health Centre</label>
+						<name>13001</name>
+						<sub_county>westlands</sub_county>
+						<ward>kangemi</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Karen Health Centre</label>
+						<name>13003</name>
+						<sub_county>langata</sub_county>
+						<ward>karen</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kariobangi EDARP</label>
+						<name>18743</name>
+						<sub_county>embakasi_north</sub_county>
+						<ward>kariobangi_north</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kariobangi Health Centre</label>
+						<name>13006</name>
+						<sub_county>embakasi_north</sub_county>
+						<ward>kariobangi_north</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kariobangi South Clinic</label>
+						<name>17434</name>
+						<sub_county>embakasi_west</sub_county>
+						<ward>kariobangi_south</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kariokor Clinic</label>
+						<name>13007</name>
+						<sub_county>starehe</sub_county>
+						<ward>ziwani/kariokor</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Karura Health Centre (Kiambu Rd)</label>
+						<name>13009</name>
+						<sub_county>westlands</sub_county>
+						<ward>karura</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kasarani Health Centre</label>
+						<name>13010</name>
+						<sub_county>kasarani</sub_county>
+						<ward>kasarani</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kasarani Maternity</label>
+						<name>13011</name>
+						<sub_county>kasarani</sub_county>
+						<ward>clay_city</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kayole Hospital</label>
+						<name>13014</name>
+						<sub_county>embakasi_central</sub_county>
+						<ward>kayole_central</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kayole I Health Centre</label>
+						<name>13015</name>
+						<sub_county>embakasi_central</sub_county>
+						<ward>kayole_north</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kayole II Sub-District Hospital</label>
+						<name>13016</name>
+						<sub_county>embakasi_central</sub_county>
+						<ward>kayole_south</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kenyatta University Dispensary</label>
+						<name>13024</name>
+						<sub_county>roysambu</sub_county>
+						<ward>kahawa</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kibera South Health Centre</label>
+						<name>13030</name>
+						<sub_county>langata</sub_county>
+						<ward>mugumo-ini</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Kimana Health Centre</label>
+						<name>14868</name>
+						<sub_county>loitokitok</sub_county>
+						<ward>kimana</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kings Cross Medical Clinic</label>
+						<name>19436</name>
+						<sub_county>embakasi_central</sub_county>
+						<ward>kayole_central</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Kitengela Medical Services</label>
+						<name>14951</name>
+						<sub_county>kajiado_east</sub_county>
+						<ward>kitengela</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Kitengela Medical Services Kajiado</label>
+						<name>18976</name>
+						<sub_county>kajiado_central</sub_county>
+						<ward>ildamat</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Kitengela sub-county hospital</label>
+						<name>14950</name>
+						<sub_county>kajiado_east</sub_county>
+						<ward>oloosirkon/sholinke</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Kivuli Dispensary</label>
+						<name>13036</name>
+						<sub_county>dagoretti_south</sub_county>
+						<ward>riruta</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Komarock Medical Clinic</label>
+						<name>13038</name>
+						<sub_county>embakasi_central</sub_county>
+						<ward>komarock</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Korogocho Health Centre</label>
+						<name>18895</name>
+						<sub_county>ruaraka</sub_county>
+						<ward>korogocho</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Lad Nan Hospital</label>
+						<name>19316</name>
+						<sub_county>starehe</sub_county>
+						<ward>pangani</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Lagos Road Dispensary</label>
+						<name>13039</name>
+						<sub_county>starehe</sub_county>
+						<ward>nairobi_central</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Langata Health Centre (Mugumo-Ini)</label>
+						<name>13041</name>
+						<sub_county>langata</sub_county>
+						<ward>mugumo-ini</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Langata Hospital</label>
+						<name>13042</name>
+						<sub_county>langata</sub_county>
+						<ward>mugumo-ini</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Langata Women Prison Dispensary</label>
+						<name>13044</name>
+						<sub_county>langata</sub_county>
+						<ward>mugumo-ini</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Lengo Medical Clinic</label>
+						<name>18590</name>
+						<sub_county>starehe</sub_county>
+						<ward>landimawe</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Lianas Clinic Health Centre</label>
+						<name>13049</name>
+						<sub_county>westlands</sub_county>
+						<ward>kangemi</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Loco Dispensary</label>
+						<name>13051</name>
+						<sub_county>mathare</sub_county>
+						<ward>hospital</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Loitokitok Sub County Hospital</label>
+						<name>15051</name>
+						<sub_county>loitokitok</sub_county>
+						<ward>kuku</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Lower Kabete Dispensary (Kabete)</label>
+						<name>13052</name>
+						<sub_county>westlands</sub_county>
+						<ward>kitisuru</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Lunga Lunga Health Centre</label>
+						<name>13053</name>
+						<sub_county>makadara</sub_county>
+						<ward>viwandani</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mafra Clinic</label>
+						<name>19512</name>
+						<sub_county>westlands</sub_county>
+						<ward>kangemi</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Magadi Hospital</label>
+						<name>15107</name>
+						<sub_county>kajiado_west</sub_county>
+						<ward>magadi</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Makadara Health Centre</label>
+						<name>13056</name>
+						<sub_county>makadara</sub_county>
+						<ward>maringo/hamza</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Makadara Mercy Sisters Dispensary</label>
+						<name>13057</name>
+						<sub_county>makadara</sub_county>
+						<ward>maringo/hamza</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Makina Clinic</label>
+						<name>13058</name>
+						<sub_county>kibra</sub_county>
+						<ward>makina</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Makina Community Clinic</label>
+						<name>20624</name>
+						<sub_county>kibra</sub_county>
+						<ward>makina</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mama Lucy Kibaki Hospital - Embakasi</label>
+						<name>17411</name>
+						<sub_county>embakasi_west</sub_county>
+						<ward>umoja_ii</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Maria Dominica Dispensary</label>
+						<name>13061</name>
+						<sub_county>langata</sub_county>
+						<ward>karen</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Maria Immaculate Health Centre</label>
+						<name>13062</name>
+						<sub_county>dagoretti_north</sub_county>
+						<ward>kileleshwa</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Maria Maternity and Nursing Home</label>
+						<name>13063</name>
+						<sub_county>embakasi_central</sub_county>
+						<ward>kayole_south</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mariakani Cottage Hospital Ltd</label>
+						<name>13064</name>
+						<sub_county>makadara</sub_county>
+						<ward>harambee</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Maringo Clinic</label>
+						<name>13069</name>
+						<sub_county>makadara</sub_county>
+						<ward>maringo/hamza</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Marura Nursing Home</label>
+						<name>13070</name>
+						<sub_county>ruaraka</sub_county>
+						<ward>mathare_north</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Marurui Dispensary</label>
+						<name>13071</name>
+						<sub_county>roysambu</sub_county>
+						<ward>roysambu</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mary Immaculate Clinic Mukuru</label>
+						<name>12982</name>
+						<sub_county>langata</sub_county>
+						<ward>mugumo-ini</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mary Immaculate Sisters Dispensary</label>
+						<name>13072</name>
+						<sub_county>makadara</sub_county>
+						<ward>maringo/hamza</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mary Mission</label>
+						<name>17514</name>
+						<sub_county>dagoretti_south</sub_county>
+						<ward>ngando</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Mashuru Health Centre</label>
+						<name>15150</name>
+						<sub_county>kajiado_east</sub_county>
+						<ward>imaroro</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Matasia Nursing Home</label>
+						<name>15153</name>
+						<sub_county>kajiado_north</sub_county>
+						<ward>olkeri</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mathare 3A (EDARP)</label>
+						<name>13075</name>
+						<sub_county>mathare</sub_county>
+						<ward>mabatini</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mathare North Health Centre</label>
+						<name>13077</name>
+						<sub_county>ruaraka</sub_county>
+						<ward>mathare_north</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mathari Hospital</label>
+						<name>13076</name>
+						<sub_county>mathare</sub_county>
+						<ward>hospital</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mbagathi Hospital</label>
+						<name>13080</name>
+						<sub_county>kibra</sub_county>
+						<ward>woodley/kenyatta_golf_course</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mbotela Clinic</label>
+						<name>13081</name>
+						<sub_county>makadara</sub_county>
+						<ward>makongeni</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Medanta Africare</label>
+						<name>19482</name>
+						<sub_county>dagoretti_north</sub_county>
+						<ward>kileleshwa</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Melchezedek Hospital</label>
+						<name>13086</name>
+						<sub_county>dagoretti_north</sub_county>
+						<ward>kileleshwa</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Melchizedek Hospital Karen</label>
+						<name>20072</name>
+						<sub_county>langata</sub_county>
+						<ward>karen</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mercillin Afya Centre</label>
+						<name>13088</name>
+						<sub_county>kibra</sub_county>
+						<ward>lindi</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mercy Mission Health Centre</label>
+						<name>13089</name>
+						<sub_county>dagoretti_north</sub_county>
+						<ward>kabiro</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Meridian Equator Hospital</label>
+						<name>13109</name>
+						<sub_county>langata</sub_county>
+						<ward>nairobi_west</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Meridian Medical Centre (Capital Centre)</label>
+						<name>18591</name>
+						<sub_county>langata</sub_county>
+						<ward>south_c</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Meridian Medical Centre (Kileleshwa)</label>
+						<name>19546</name>
+						<sub_county>dagoretti_north</sub_county>
+						<ward>kileleshwa</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Meridian Medical Donholm Clinic</label>
+						<name>17727</name>
+						<sub_county>embakasi_east</sub_county>
+						<ward>upper_savannah</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Meridian Medical centre(Nation Centre Bldg )</label>
+						<name>20104</name>
+						<sub_county>starehe</sub_county>
+						<ward>nairobi_central</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Metropolitan Hospital Nairobi</label>
+						<name>13090</name>
+						<sub_county>makadara</sub_county>
+						<ward>harambee</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mid Hill Medical Clinic</label>
+						<name>13091</name>
+						<sub_county>dagoretti_south</sub_county>
+						<ward>riruta</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Mile 46 Health Centre</label>
+						<name>15185</name>
+						<sub_county>kajiado_west</sub_county>
+						<ward>iloodokilani</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mji Wa Huruma Dispensary</label>
+						<name>13093</name>
+						<sub_county>westlands</sub_county>
+						<ward>karura</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mother &amp; Child Hospital</label>
+						<name>13096</name>
+						<sub_county>kamukunji</sub_county>
+						<ward>california</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mountcare Medical Centre</label>
+						<name>13201</name>
+						<sub_county>westlands</sub_county>
+						<ward>mountain_view</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mow Dispensary</label>
+						<name>13097</name>
+						<sub_county>starehe</sub_county>
+						<ward>landimawe</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mukuru Health Centre</label>
+						<name>18463</name>
+						<sub_county>embakasi_south</sub_county>
+						<ward>imara_daima</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mukuru Mmm Clinic</label>
+						<name>13101</name>
+						<sub_county>embakasi_south</sub_county>
+						<ward>kwa_njenga</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Muteithania Medical Clinic</label>
+						<name>13103</name>
+						<sub_county>dagoretti_north</sub_county>
+						<ward>kabiro</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mutuini Sub-District Hospital</label>
+						<name>13105</name>
+						<sub_county>dagoretti_south</sub_county>
+						<ward>mutu-ini</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mwangaza ulio Na Tumaini clinic</label>
+						<name>20091</name>
+						<sub_county>embakasi_north</sub_county>
+						<ward>dandora_area_i</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mwatate Healthcare Centre</label>
+						<name>19454</name>
+						<sub_county>langata</sub_county>
+						<ward>mugumo-ini</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Mwera Medical Clinic</label>
+						<name>19442</name>
+						<sub_county>embakasi_central</sub_county>
+						<ward>kayole_central</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Nairobi East Hospital Ltd</label>
+						<name>20264</name>
+						<sub_county>kamukunji</sub_county>
+						<ward>california</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Nairobi South Clinic</label>
+						<name>13113</name>
+						<sub_county>starehe</sub_county>
+						<ward>nairobi_south</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Nairobi South Hospital</label>
+						<name>13112</name>
+						<sub_county>langata</sub_county>
+						<ward>south_c</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Nairobi West Hospital</label>
+						<name>13115</name>
+						<sub_county>langata</sub_county>
+						<ward>nairobi_west</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Nairobi Women Hospital Ongata Rongai</label>
+						<name>18195</name>
+						<sub_county>kajiado_north</sub_county>
+						<ward>nkaimurunya</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Nairobi Women's Hospital Kitengela</label>
+						<name>21283</name>
+						<sub_county>kajiado_east</sub_county>
+						<ward>kitengela</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Nairobi Womens Hospital (Hurlingham)</label>
+						<name>13117</name>
+						<sub_county>dagoretti_north</sub_county>
+						<ward>kilimani</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Nairobi Womens Hospital Adams</label>
+						<name>16795</name>
+						<sub_county>dagoretti_north</sub_county>
+						<ward>kilimani</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Namanga Health Centre</label>
+						<name>15294</name>
+						<sub_county>kajiado_central</sub_county>
+						<ward>matapato_south</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Namelok Health Centre</label>
+						<name>15296</name>
+						<sub_county>loitokitok</sub_county>
+						<ward>kimana</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>National Youth Service Hq Dispensary (Ruaraka)</label>
+						<name>13130</name>
+						<sub_county>ruaraka</sub_county>
+						<ward>utalii</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Ngaira Rhodes Dispensary</label>
+						<name>13121</name>
+						<sub_county>starehe</sub_county>
+						<ward>landimawe</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Ngara Health Centre (City Council of Nairobi)</label>
+						<name>13122</name>
+						<sub_county>starehe</sub_county>
+						<ward>ngara</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Ngong Road Dispensary</label>
+						<name>13123</name>
+						<sub_county>kibra</sub_county>
+						<ward>woodley/kenyatta_golf_course</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Ngong Sub-County Hospital</label>
+						<name>15351</name>
+						<sub_county>kajiado_north</sub_county>
+						<ward>ngong</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Ngumba Medical Centre</label>
+						<name>19236</name>
+						<sub_county>ruaraka</sub_county>
+						<ward>babandogo</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Nimoli Medical Centre</label>
+						<name>13125</name>
+						<sub_county>kasarani</sub_county>
+						<ward>kasarani</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Njiru  Health Centre</label>
+						<name>13126</name>
+						<sub_county>kasarani</sub_county>
+						<ward>njiru</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Nkama Dispensary</label>
+						<name>15361</name>
+						<sub_county>loitokitok</sub_county>
+						<ward>kuku</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Nyina Wa Mumbi Dispensary</label>
+						<name>13129</name>
+						<sub_county>dagoretti_north</sub_county>
+						<ward>kawangware</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Ofafa I Clinic</label>
+						<name>13132</name>
+						<sub_county>makadara</sub_county>
+						<ward>maringo/hamza</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Ogwedhi Dispensary (Nairobi North)</label>
+						<name>13133</name>
+						<sub_county>roysambu</sub_county>
+						<ward>kahawa_west</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Ololua Dispensary</label>
+						<name>17799</name>
+						<sub_county>kajiado_north</sub_county>
+						<ward>oloolua</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Oltepesi Dispensary</label>
+						<name>15434</name>
+						<sub_county>kajiado_west</sub_county>
+						<ward>keekonyokie</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Ongata Rongai Sub County Hospital</label>
+						<name>15440</name>
+						<sub_county>kajiado_north</sub_county>
+						<ward>nkaimurunya</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>PCEA Pipeline Clinic</label>
+						<name>19700</name>
+						<sub_county>embakasi_south</sub_county>
+						<ward>pipeline</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Pangani Dispensary</label>
+						<name>13138</name>
+						<sub_county>starehe</sub_county>
+						<ward>pangani</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Patanisho Maternity and Nursing Home</label>
+						<name>12977</name>
+						<sub_county>embakasi_east</sub_county>
+						<ward>lower_savannah</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Penda Medical Care-Kahawa West</label>
+						<name>22946</name>
+						<sub_county>roysambu</sub_county>
+						<ward>kahawa_west</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Penda Medical Centre Umoja 2</label>
+						<name>20449</name>
+						<sub_county>embakasi_west</sub_county>
+						<ward>umoja_i</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Pipeline Nursing Home</label>
+						<name>12978</name>
+						<sub_county>embakasi_south</sub_county>
+						<ward>pipeline</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Precious Life Medical Clinic Ruai</label>
+						<name>17996</name>
+						<sub_county>kasarani</sub_county>
+						<ward>ruai</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Premium Health Services</label>
+						<name>18744</name>
+						<sub_county>embakasi_north</sub_county>
+						<ward>kariobangi_north</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Provide Internatinal Clinic (Dandora)</label>
+						<name>13148</name>
+						<sub_county>embakasi_north</sub_county>
+						<ward>dandora_area_iv</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Provide International Korogocho</label>
+						<name>13150</name>
+						<sub_county>ruaraka</sub_county>
+						<ward>korogocho</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Prudent Medical Clinic Kariobangi</label>
+						<name>18001</name>
+						<sub_county>embakasi_central</sub_county>
+						<ward>komarock</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Pumwani Majengo Dispensary</label>
+						<name>13155</name>
+						<sub_county>kamukunji</sub_county>
+						<ward>pumwani</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Pumwani Maternity Hospital</label>
+						<name>13156</name>
+						<sub_county>kamukunji</sub_county>
+						<ward>pumwani</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Radiant Pangani Hospital</label>
+						<name>13158</name>
+						<sub_county>starehe</sub_county>
+						<ward>pangani</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Rays International Clinic Kariobangi</label>
+						<name>17998</name>
+						<sub_county>embakasi_west</sub_county>
+						<ward>kariobangi_south</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Redemeed Health Centre</label>
+						<name>13160</name>
+						<sub_county>ruaraka</sub_county>
+						<ward>babandogo</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Reuben Mukuru Health Centre</label>
+						<name>13173</name>
+						<sub_county>embakasi_south</sub_county>
+						<ward>kwa_reuben</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Revival Home Based Care Clinic</label>
+						<name>16168</name>
+						<sub_county>langata</sub_county>
+						<ward>mugumo-ini</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Riruta Health Centre</label>
+						<name>13165</name>
+						<sub_county>dagoretti_north</sub_county>
+						<ward>kawangware</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Rombo Health Centre</label>
+						<name>15490</name>
+						<sub_county>loitokitok</sub_county>
+						<ward>rombo</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Round About Medical Dispensary</label>
+						<name>13167</name>
+						<sub_county>roysambu</sub_county>
+						<ward>githurai</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Ruai Family Hospital LTD</label>
+						<name>18390</name>
+						<sub_county>kasarani</sub_county>
+						<ward>ruai</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Ruai Health Centre</label>
+						<name>13171</name>
+						<sub_county>kasarani</sub_county>
+						<ward>ruai</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Ruaraka Clinic</label>
+						<name>13172</name>
+						<sub_county>kasarani</sub_county>
+						<ward>kasarani</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Ruaraka Uhai Neema Hospital</label>
+						<name>18485</name>
+						<sub_county>ruaraka</sub_county>
+						<ward>babandogo</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>SOS Dispensary</label>
+						<name>13189</name>
+						<sub_county>embakasi_west</sub_county>
+						<ward>kariobangi_south</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Salama Nursing Home</label>
+						<name>13175</name>
+						<sub_county>kamukunji</sub_county>
+						<ward>airbase</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Sam-link medical centre</label>
+						<name>20235</name>
+						<sub_county>kasarani</sub_county>
+						<ward>clay_city</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Samaritan Medical Services (Dandora)</label>
+						<name>13176</name>
+						<sub_county>embakasi_north</sub_county>
+						<ward>dandora_area_iv</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Saola Maternity and Nursing Home</label>
+						<name>13178</name>
+						<sub_county>langata</sub_county>
+						<ward>nyayo_highrise</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Shauri Moyo Baptist VCT Centre</label>
+						<name>13183</name>
+						<sub_county>kamukunji</sub_county>
+						<ward>pumwani</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Shauri Moyo Clinic</label>
+						<name>13184</name>
+						<sub_county>kamukunji</sub_county>
+						<ward>pumwani</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Shompole Health Centre</label>
+						<name>15560</name>
+						<sub_county>kajiado_west</sub_county>
+						<ward>magadi</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Simba Health Centre</label>
+						<name>15574</name>
+						<sub_county>kajiado_east</sub_county>
+						<ward>kenyawa-poka</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>South B Hospital Ltd</label>
+						<name>18005</name>
+						<sub_county>starehe</sub_county>
+						<ward>nairobi_south</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>South B Police Band Dispensary</label>
+						<name>13144</name>
+						<sub_county>starehe</sub_county>
+						<ward>nairobi_south</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Soweto Kayole PHC Health Centre</label>
+						<name>13017</name>
+						<sub_county>embakasi_east</sub_county>
+						<ward>lower_savannah</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Spacecare Health Centre &amp; Maternity</label>
+						<name>13212</name>
+						<sub_county>dagoretti_south</sub_county>
+						<ward>riruta</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Special Treatment Clinic</label>
+						<name>13193</name>
+						<sub_county>starehe</sub_county>
+						<ward>nairobi_central</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>St Alice (EDARP) Dandora</label>
+						<name>18219</name>
+						<sub_county>kasarani</sub_county>
+						<ward>njiru</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>St Barkita Dispensary Utawala</label>
+						<name>17723</name>
+						<sub_county>embakasi_east</sub_county>
+						<ward>utawala</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>St Begson Clinic</label>
+						<name>13198</name>
+						<sub_county>embakasi_central</sub_county>
+						<ward>kayole_south</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>St Bridget's Mother &amp; Child</label>
+						<name>13199</name>
+						<sub_county>starehe</sub_county>
+						<ward>ziwani/kariokor</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>St Catherine's Health Centre</label>
+						<name>13200</name>
+						<sub_county>dagoretti_north</sub_county>
+						<ward>kabiro</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>St Clare Medical Clinic</label>
+						<name>18465</name>
+						<sub_county>embakasi_south</sub_county>
+						<ward>pipeline</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>St Francis Com Hospital</label>
+						<name>13202</name>
+						<sub_county>kasarani</sub_county>
+						<ward>clay_city</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>St Francis Community Hospital (Kasarani)</label>
+						<name>17943</name>
+						<sub_county>kasarani</sub_county>
+						<ward>kasarani</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>St John Hospital</label>
+						<name>13205</name>
+						<sub_county>roysambu</sub_county>
+						<ward>githurai</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>St Joseph Mukasa Dispensary</label>
+						<name>13208</name>
+						<sub_county>roysambu</sub_county>
+						<ward>kahawa_west</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>St Joseph W Dispensary (Westlands)</label>
+						<name>13209</name>
+						<sub_county>westlands</sub_county>
+						<ward>mountain_view</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>St Joseph's Dispensary (Dagoretti)</label>
+						<name>13210</name>
+						<sub_county>dagoretti_south</sub_county>
+						<ward>ngando</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>St Mary's Health Centre</label>
+						<name>13217</name>
+						<sub_county>ruaraka</sub_county>
+						<ward>korogocho</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>St Mary's Mission Hospital</label>
+						<name>13218</name>
+						<sub_county>langata</sub_county>
+						<ward>mugumo-ini</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>St Patrick Health Care Centre</label>
+						<name>13222</name>
+						<sub_county>embakasi_central</sub_county>
+						<ward>kayole_north</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>St Paul's Hospital</label>
+						<name>18190</name>
+						<sub_county>kajiado_east</sub_county>
+						<ward>kitengela</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>St Peter Dispensary</label>
+						<name>13223</name>
+						<sub_county>ruaraka</sub_county>
+						<ward>babandogo</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>St Philips Health Centre</label>
+						<name>13224</name>
+						<sub_county>embakasi_north</sub_county>
+						<ward>kariobangi_north</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>St Raphael's Clinic</label>
+						<name>17683</name>
+						<sub_county>embakasi_east</sub_county>
+						<ward>mihango</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>St Teresa's Parish Dispensary</label>
+						<name>13225</name>
+						<sub_county>kamukunji</sub_county>
+						<ward>eastleigh_north</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>St Therese Dispensary</label>
+						<name>15667</name>
+						<sub_county>kajiado_east</sub_county>
+						<ward>kitengela</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>St Vincent Catholic Clinic</label>
+						<name>13230</name>
+						<sub_county>kamukunji</sub_county>
+						<ward>airbase</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>St. Odilia's Dispensary</label>
+						<name>13221</name>
+						<sub_county>langata</sub_county>
+						<ward>karen</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>St.Scholastica Uzima Hospital</label>
+						<name>13246</name>
+						<sub_county>ruaraka</sub_county>
+						<ward>utalii</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Sucos Hospital</label>
+						<name>14204</name>
+						<sub_county>kajiado_east</sub_county>
+						<ward>kaputiei_north</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Sunbeam Medical Centre</label>
+						<name>18281</name>
+						<sub_county>westlands</sub_county>
+						<ward>kangemi</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Sunton CFW Clinic</label>
+						<name>18438</name>
+						<sub_county>kasarani</sub_county>
+						<ward>kasarani</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Susamed Medical Clinic</label>
+						<name>17686</name>
+						<sub_county>embakasi_central</sub_county>
+						<ward>kayole_north</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Tabitha Medical Clinic</label>
+						<name>13234</name>
+						<sub_county>kibra</sub_county>
+						<ward>sarang'ombe</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>The Karen Hospital</label>
+						<name>13004</name>
+						<sub_county>langata</sub_county>
+						<ward>karen</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Thika Road Health Services Ltd (Kasarani)</label>
+						<name>17950</name>
+						<sub_county>kasarani</sub_county>
+						<ward>kasarani</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Topcare Nursing Home</label>
+						<name>18189</name>
+						<sub_county>kajiado_east</sub_county>
+						<ward>oloosirkon/sholinke</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Tropical Medical Clinic</label>
+						<name>17767</name>
+						<sub_county>loitokitok</sub_county>
+						<ward>kuku</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Tumaini Clinic</label>
+						<name>15748</name>
+						<sub_county>loitokitok</sub_county>
+						<ward>rombo</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Umoja Health Centre</label>
+						<name>13240</name>
+						<sub_county>embakasi_west</sub_county>
+						<ward>umoja_i</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Umoja Hospital</label>
+						<name>13241</name>
+						<sub_county>embakasi_west</sub_county>
+						<ward>umoja_i</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Unity Maternity &amp; Nursing Home</label>
+						<name>18334</name>
+						<sub_county>embakasi_west</sub_county>
+						<ward>umoja_ii</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>University of Nairobi Dispensary</label>
+						<name>13242</name>
+						<sub_county>dagoretti_north</sub_county>
+						<ward>kilimani</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Upendo Dispensary</label>
+						<name>13243</name>
+						<sub_county>mathare</sub_county>
+						<ward>hospital</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Urafiki Medical Clinic</label>
+						<name>18142</name>
+						<sub_county>kajiado_east</sub_county>
+						<ward>kaputiei_north</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Ushirika Medical Clinic</label>
+						<name>13245</name>
+						<sub_county>kibra</sub_county>
+						<ward>sarang'ombe</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Utawala Estate Health Centre</label>
+						<name>18464</name>
+						<sub_county>embakasi_east</sub_county>
+						<ward>utawala</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Uthiru Muthua Health Centre</label>
+						<name>18628</name>
+						<sub_county>dagoretti_south</sub_county>
+						<ward>uthiru/ruthimitu</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Uzima Uhai Health Centre</label>
+						<name>22848</name>
+						<sub_county>kasarani</sub_county>
+						<ward>mwiki</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Uzima White Medical Clinic</label>
+						<name>21856</name>
+						<sub_county>mathare</sub_county>
+						<ward>ngei</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Victory Hospital</label>
+						<name>13247</name>
+						<sub_county>embakasi_west</sub_county>
+						<ward>umoja_i</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Waithaka Health Centre</label>
+						<name>13249</name>
+						<sub_county>dagoretti_south</sub_county>
+						<ward>waithaka</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Wakibe Clinic</label>
+						<name>13250</name>
+						<sub_county>kamukunji</sub_county>
+						<ward>airbase</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Wama Nursing Home</label>
+						<name>15767</name>
+						<sub_county>kajiado_north</sub_county>
+						<ward>ongata_rongai</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Wamunga Health Clinic</label>
+						<name>13251</name>
+						<sub_county>embakasi_north</sub_county>
+						<ward>dandora_area_i</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Wanainchi Jamii Materinty and Nursing Home</label>
+						<name>15770</name>
+						<sub_county>kajiado_north</sub_county>
+						<ward>nkaimurunya</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Wema Medical Clinic</label>
+						<name>17394</name>
+						<sub_county>kibra</sub_county>
+						<ward>sarang'ombe</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Wema Nursing Home</label>
+						<name>13256</name>
+						<sub_county>dagoretti_north</sub_county>
+						<ward>kabiro</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Westlands Health Centre</label>
+						<name>13258</name>
+						<sub_county>westlands</sub_county>
+						<ward>parklands/highridge</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Westlands Medical Centre</label>
+						<name>19494</name>
+						<sub_county>westlands</sub_county>
+						<ward>parklands/highridge</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Woodley Clinic</label>
+						<name>13259</name>
+						<sub_county>kibra</sub_county>
+						<ward>woodley/kenyatta_golf_course</ward>
+					</item>
+					<item>
+						<county>nairobi</county>
+						<label>Woodstreet Nursing Home</label>
+						<name>13260</name>
+						<sub_county>kamukunji</sub_county>
+						<ward>eastleigh_north</ward>
+					</item>
+					<item>
+						<county>kajiado</county>
+						<label>Zam Zam Medical Services</label>
+						<name>15787</name>
+						<sub_county>kajiado_north</sub_county>
+						<ward>ngong</ward>
+					</item>
+				</root>
+			</instance>
+			<instance id="SIMS.S_01_19_DQA-Activities_Q2_T-NUM">
+				<root>
+					<item>
+						<label>Reviews of registers and/or client record systems for data completeness</label>
+						<name>SIMS.S_01_19_DQA-Activities_Q2_CB1</name>
+					</item>
+					<item>
+						<label>Crosschecking (comparing) monthly reported results with client records, pharmacy records, registers, or other data sources</label>
+						<name>SIMS.S_01_19_DQA-Activities_Q2_CB2</name>
+					</item>
+					<item>
+						<label>Categorizing and separating active or enrolled client records from inactive/LTFU clients for reporting accuracy and client follow-up</label>
+						<name>SIMS.S_01_19_DQA-Activities_Q2_CB3</name>
+					</item>
+					<item>
+						<label>Assessing results during data review meetings with program staff; highlighting data discrepancies or outlier values; and documenting data quality concerns</label>
+						<name>SIMS.S_01_19_DQA-Activities_Q2_CB4</name>
+					</item>
+				</root>
+			</instance>
+			<bind nodeset="/data/SIMS.ASSESSMENT_DETAILS" required="false()"/>
+			<bind nodeset="/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASSR_NAME" required="true()" type="string"/>
+			<bind nodeset="/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_COUNTY" required="true()" type="string"/>
+			<bind nodeset="/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_SUB_COUNTY" required="true()" type="string"/>
+			<bind nodeset="/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_FACILITY" required="true()" type="string"/>
+			<bind calculate=" /data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_FACILITY " nodeset="/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_FACILITY_MFL" readonly="true()" required="false()" type="string"/>
+			<bind nodeset="/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_TYPE" required="false()" type="string"/>
+			<bind nodeset="/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_DATE" required="true()" type="date"/>
+			<bind nodeset="/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_START_TIME" required="false()" type="time"/>
+			<bind nodeset="/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_END_TIME" required="false()" type="time"/>
+			<bind nodeset="/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_LOCATION" required="false()" type="geopoint"/>
+			<bind nodeset="/data/S_01_19" required="false()"/>
+			<bind nodeset="/data/S_01_19/SIMS.S_01_19_DQA-Activities_STANDARD" readonly="true()" required="false()" type="string"/>
+			<bind nodeset="/data/S_01_19/SIMS.S_01_19_DQA-Activities_Q1_RESP" required="false()" type="string"/>
+			<bind nodeset="/data/S_01_19/SIMS.S_01_19_DQA-Activities_Q2_T-NUM" readonly="not(selected( /data/S_01_19/SIMS.S_01_19_DQA-Activities_Q1_RESP , 'yes'))" required="false()" type="string"/>
+			<bind nodeset="/data/S_01_19/SIMS.S_01_19_DQA-Activities_COMM" required="false()" type="string"/>
+			<bind calculate="if(not(selected( /data/S_01_19/SIMS.S_01_19_DQA-Activities_Q1_RESP , 'yes')), 'red', if(count-selected( /data/S_01_19/SIMS.S_01_19_DQA-Activities_Q2_T-NUM )=0, 'red', if(count-selected( /data/S_01_19/SIMS.S_01_19_DQA-Activities_Q2_T-NUM )&lt;3, 'yellow', 'green')))" nodeset="/data/S_01_19/SIMS.S_01_19_DQA-Activities_SCORE" readonly="true()" required="false()" type="string"/>
+			<bind nodeset="/data/S_01_20" required="false()"/>
+			<bind nodeset="/data/S_01_20/SIMS.S_01_20_PerfData_STANDARD" readonly="true()" required="false()" type="string"/>
+			<bind nodeset="/data/S_01_20/SIMS.S_01_20_PerfData_Q1_RESP" required="false()" type="string"/>
+			<bind nodeset="/data/S_01_20/SIMS.S_01_20_PerfData_Q2_RESP" readonly="not(selected( /data/S_01_20/SIMS.S_01_20_PerfData_Q1_RESP , 'yes'))" required="false()" type="string"/>
+			<bind nodeset="/data/S_01_20/SIMS.S_01_20_PerfData_Q3_RESP" readonly="not(selected( /data/S_01_20/SIMS.S_01_20_PerfData_Q1_RESP , 'yes')) or not(selected( /data/S_01_20/SIMS.S_01_20_PerfData_Q2_RESP , 'yes'))" required="false()" type="string"/>
+			<bind nodeset="/data/S_01_20/SIMS.S_01_20_PerfData_COMM" required="false()" type="string"/>
+			<bind calculate="if(not(selected( /data/S_01_20/SIMS.S_01_20_PerfData_Q1_RESP , 'yes')), 'red', if(not(selected( /data/S_01_20/SIMS.S_01_20_PerfData_Q2_RESP , 'yes')), 'yellow', if(not(selected( /data/S_01_20/SIMS.S_01_20_PerfData_Q3_RESP , 'yes')), 'yellow', 'green')))" nodeset="/data/S_01_20/SIMS.S_01_20_PerfData_SCORE" readonly="true()" required="false()" type="string"/>
+			<bind nodeset="/data/S_01_21" required="false()"/>
+			<bind nodeset="/data/S_01_21/SIMS.S_01_21_DataRepConTX_STANDARD" readonly="true()" required="false()" type="string"/>
+			<bind nodeset="/data/S_01_21/SIMS.S_01_21_DataRepConTX_INSTRUCTIONS" readonly="true()" required="false()" type="string"/>
+			<bind nodeset="/data/S_01_21/SIMS.S_01_21_DataRepConTX_NA" required="false()"/>
+			<bind nodeset="/data/S_01_21/SIMS.S_01_21_DataRepConTX_Q1_RESP" readonly=" /data/S_01_21/SIMS.S_01_21_DataRepConTX_NA ='OK'" required="false()" type="string"/>
+			<bind nodeset="/data/S_01_21/SIMS.S_01_21_DataRepConTX_Q2_PERC" required="false()"/>
+			<bind nodeset="/data/S_01_21/SIMS.S_01_21_DataRepConTX_Q2_PERC/generated_table_list_label_34" readonly="true()" type="string"/>
+			<bind constraint=".&gt;=0" jr:constraintMsg="This value must be greater than or equal to 0." nodeset="/data/S_01_21/SIMS.S_01_21_DataRepConTX_Q2_PERC/SIMS.S_01_21_DataRepConTX_Q2_A" readonly=" /data/S_01_21/SIMS.S_01_21_DataRepConTX_NA ='OK' or not(selected( /data/S_01_21/SIMS.S_01_21_DataRepConTX_Q1_RESP , 'yes'))" required="false()" type="int"/>
+			<bind constraint=".&gt;=0" jr:constraintMsg="This value must be greater than or equal to 0." nodeset="/data/S_01_21/SIMS.S_01_21_DataRepConTX_Q2_PERC/SIMS.S_01_21_DataRepConTX_Q2_B" readonly=" /data/S_01_21/SIMS.S_01_21_DataRepConTX_NA ='OK' or not(selected( /data/S_01_21/SIMS.S_01_21_DataRepConTX_Q1_RESP , 'yes'))" required="false()" type="int"/>
+			<bind calculate="coalesce( /data/S_01_21/SIMS.S_01_21_DataRepConTX_Q2_PERC/SIMS.S_01_21_DataRepConTX_Q2_A , 0) - coalesce( /data/S_01_21/SIMS.S_01_21_DataRepConTX_Q2_PERC/SIMS.S_01_21_DataRepConTX_Q2_B , 0)" nodeset="/data/S_01_21/SIMS.S_01_21_DataRepConTX_Q2_PERC/SIMS.S_01_21_DataRepConTX_Q2_C" readonly="true()" required="false()" type="int"/>
+			<bind calculate="if(coalesce( /data/S_01_21/SIMS.S_01_21_DataRepConTX_Q2_PERC/SIMS.S_01_21_DataRepConTX_Q2_B , 0)=0, 0, abs(round(( /data/S_01_21/SIMS.S_01_21_DataRepConTX_Q2_PERC/SIMS.S_01_21_DataRepConTX_Q2_C  div  /data/S_01_21/SIMS.S_01_21_DataRepConTX_Q2_PERC/SIMS.S_01_21_DataRepConTX_Q2_B ) * 100,2)))" nodeset="/data/S_01_21/SIMS.S_01_21_DataRepConTX_Q2_PERC/SIMS.S_01_21_DataRepConTX_Q2_D" readonly="true()" required="false()" type="decimal"/>
+			<bind nodeset="/data/S_01_21/SIMS.S_01_21_DataRepConTX_COMM" required="false()" type="string"/>
+			<bind calculate="if( /data/S_01_21/SIMS.S_01_21_DataRepConTX_NA ='OK', 'gray', if(not(selected( /data/S_01_21/SIMS.S_01_21_DataRepConTX_Q1_RESP , 'yes')), 'red', if( /data/S_01_21/SIMS.S_01_21_DataRepConTX_Q2_PERC/SIMS.S_01_21_DataRepConTX_Q2_D &gt;10, 'red', if( /data/S_01_21/SIMS.S_01_21_DataRepConTX_Q2_PERC/SIMS.S_01_21_DataRepConTX_Q2_D &gt;5, 'yellow', 'green'))))" nodeset="/data/S_01_21/SIMS.S_01_21_DataRepConTX_SCORE" readonly="true()" required="false()" type="string"/>
+			<bind nodeset="/data/S_01_22" required="false()"/>
+			<bind nodeset="/data/S_01_22/SIMS.S_01_22_DataRepConHTS_STANDARD" readonly="true()" required="false()" type="string"/>
+			<bind nodeset="/data/S_01_22/SIMS.S_01_22_DataRepConHTS_INSTRUCTIONS" readonly="true()" required="false()" type="string"/>
+			<bind nodeset="/data/S_01_22/SIMS.S_01_22_DataRepConHTS_NA" required="false()"/>
+			<bind nodeset="/data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q1_RESP" readonly=" /data/S_01_22/SIMS.S_01_22_DataRepConHTS_NA ='OK'" required="false()" type="string"/>
+			<bind nodeset="/data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q2_PERC" required="false()"/>
+			<bind nodeset="/data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q2_PERC/generated_table_list_label_48" readonly="true()" type="string"/>
+			<bind constraint=".&gt;=0" jr:constraintMsg="This value must be greater than or equal to 0." nodeset="/data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q2_PERC/SIMS.S_01_22_DataRepConHTS_Q2_A" readonly=" /data/S_01_22/SIMS.S_01_22_DataRepConHTS_NA ='OK' or not(selected( /data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q1_RESP , 'yes'))" required="false()" type="int"/>
+			<bind constraint=".&gt;=0" jr:constraintMsg="This value must be greater than or equal to 0." nodeset="/data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q2_PERC/SIMS.S_01_22_DataRepConHTS_Q2_B" readonly=" /data/S_01_22/SIMS.S_01_22_DataRepConHTS_NA ='OK' or not(selected( /data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q1_RESP , 'yes'))" required="false()" type="int"/>
+			<bind calculate="coalesce( /data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q2_PERC/SIMS.S_01_22_DataRepConHTS_Q2_A , 0) - coalesce( /data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q2_PERC/SIMS.S_01_22_DataRepConHTS_Q2_B , 0)" nodeset="/data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q2_PERC/SIMS.S_01_22_DataRepConHTS_Q2_C" readonly="true()" required="false()" type="int"/>
+			<bind calculate="if(coalesce( /data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q2_PERC/SIMS.S_01_22_DataRepConHTS_Q2_B , 0)=0, 0, abs(round(( /data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q2_PERC/SIMS.S_01_22_DataRepConHTS_Q2_C  div  /data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q2_PERC/SIMS.S_01_22_DataRepConHTS_Q2_B ) * 100,2)))" nodeset="/data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q2_PERC/SIMS.S_01_22_DataRepConHTS_Q2_D" readonly="true()" required="false()" type="decimal"/>
+			<bind nodeset="/data/S_01_22/SIMS.S_01_22_DataRepConHTS_COMM" required="false()" type="string"/>
+			<bind calculate="if( /data/S_01_22/SIMS.S_01_22_DataRepConHTS_NA ='OK', 'gray', if(not(selected( /data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q1_RESP , 'yes')), 'red', if( /data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q2_PERC/SIMS.S_01_22_DataRepConHTS_Q2_D &gt;10, 'red', if( /data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q2_PERC/SIMS.S_01_22_DataRepConHTS_Q2_D &gt;5, 'yellow', 'green'))))" nodeset="/data/S_01_22/SIMS.S_01_22_DataRepConHTS_SCORE" readonly="true()" required="false()" type="string"/>
+			<bind nodeset="/data/S_01_23" required="false()"/>
+			<bind nodeset="/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_STANDARD" readonly="true()" required="false()" type="string"/>
+			<bind nodeset="/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_INSTRUCTIONS" readonly="true()" required="false()" type="string"/>
+			<bind nodeset="/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_NA" required="false()"/>
+			<bind nodeset="/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q1_RESP" readonly=" /data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_NA ='OK'" required="false()" type="string"/>
+			<bind nodeset="/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q2_PERC" required="false()"/>
+			<bind nodeset="/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q2_PERC/generated_table_list_label_62" readonly="true()" type="string"/>
+			<bind constraint=".&gt;=0" jr:constraintMsg="This value must be greater than or equal to 0." nodeset="/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q2_PERC/SIMS.S_01_23_DataRepConPMTCT_Q2_A" readonly=" /data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_NA ='OK' or not(selected( /data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q1_RESP , 'yes'))" required="false()" type="int"/>
+			<bind constraint=".&gt;=0" jr:constraintMsg="This value must be greater than or equal to 0." nodeset="/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q2_PERC/SIMS.S_01_23_DataRepConPMTCT_Q2_B" readonly=" /data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_NA ='OK' or not(selected( /data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q1_RESP , 'yes'))" required="false()" type="int"/>
+			<bind calculate="coalesce( /data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q2_PERC/SIMS.S_01_23_DataRepConPMTCT_Q2_A , 0) - coalesce( /data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q2_PERC/SIMS.S_01_23_DataRepConPMTCT_Q2_B , 0)" nodeset="/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q2_PERC/SIMS.S_01_23_DataRepConPMTCT_Q2_C" readonly="true()" required="false()" type="int"/>
+			<bind calculate="if(coalesce( /data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q2_PERC/SIMS.S_01_23_DataRepConPMTCT_Q2_B , 0)=0, 0, abs(round(( /data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q2_PERC/SIMS.S_01_23_DataRepConPMTCT_Q2_C  div  /data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q2_PERC/SIMS.S_01_23_DataRepConPMTCT_Q2_B ) * 100,2)))" nodeset="/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q2_PERC/SIMS.S_01_23_DataRepConPMTCT_Q2_D" readonly="true()" required="false()" type="decimal"/>
+			<bind nodeset="/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_COMM" required="false()" type="string"/>
+			<bind calculate="if( /data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_NA ='OK', 'gray', if(not(selected( /data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q1_RESP , 'yes')), 'red', if( /data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q2_PERC/SIMS.S_01_23_DataRepConPMTCT_Q2_D &gt;10, 'red', if( /data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q2_PERC/SIMS.S_01_23_DataRepConPMTCT_Q2_D &gt;5, 'yellow', 'green'))))" nodeset="/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_SCORE" readonly="true()" required="false()" type="string"/>
+			<bind nodeset="/data/S_01_24" required="false()"/>
+			<bind nodeset="/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_STANDARD" readonly="true()" required="false()" type="string"/>
+			<bind nodeset="/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_INSTRUCTIONS" readonly="true()" required="false()" type="string"/>
+			<bind nodeset="/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_NA" required="false()"/>
+			<bind nodeset="/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q1_RESP" readonly=" /data/S_01_24/SIMS.S_01_24_DataRepConVMMC_NA ='OK'" required="false()" type="string"/>
+			<bind nodeset="/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q2_PERC" required="false()"/>
+			<bind nodeset="/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q2_PERC/generated_table_list_label_76" readonly="true()" type="string"/>
+			<bind constraint=".&gt;=0" jr:constraintMsg="This value must be greater than or equal to 0." nodeset="/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q2_PERC/SIMS.S_01_24_DataRepConVMMC_Q2_A" readonly=" /data/S_01_24/SIMS.S_01_24_DataRepConVMMC_NA ='OK' or not(selected( /data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q1_RESP , 'yes'))" required="false()" type="int"/>
+			<bind constraint=".&gt;=0" jr:constraintMsg="This value must be greater than or equal to 0." nodeset="/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q2_PERC/SIMS.S_01_24_DataRepConVMMC_Q2_B" readonly=" /data/S_01_24/SIMS.S_01_24_DataRepConVMMC_NA ='OK' or not(selected( /data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q1_RESP , 'yes'))" required="false()" type="int"/>
+			<bind calculate="coalesce( /data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q2_PERC/SIMS.S_01_24_DataRepConVMMC_Q2_A , 0) - coalesce( /data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q2_PERC/SIMS.S_01_24_DataRepConVMMC_Q2_B , 0)" nodeset="/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q2_PERC/SIMS.S_01_24_DataRepConVMMC_Q2_C" readonly="true()" required="false()" type="int"/>
+			<bind calculate="if(coalesce( /data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q2_PERC/SIMS.S_01_24_DataRepConVMMC_Q2_B , 0)=0, 0, abs(round(( /data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q2_PERC/SIMS.S_01_24_DataRepConVMMC_Q2_C  div  /data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q2_PERC/SIMS.S_01_24_DataRepConVMMC_Q2_B ) * 100,2)))" nodeset="/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q2_PERC/SIMS.S_01_24_DataRepConVMMC_Q2_D" readonly="true()" required="false()" type="decimal"/>
+			<bind nodeset="/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_COMM" required="false()" type="string"/>
+			<bind calculate="if( /data/S_01_24/SIMS.S_01_24_DataRepConVMMC_NA ='OK', 'gray', if(not(selected( /data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q1_RESP , 'yes')), 'red', if( /data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q2_PERC/SIMS.S_01_24_DataRepConVMMC_Q2_D &gt;10, 'red', if( /data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q2_PERC/SIMS.S_01_24_DataRepConVMMC_Q2_D &gt;5, 'yellow', 'green'))))" nodeset="/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_SCORE" readonly="true()" required="false()" type="string"/>
+			<bind jr:preload="uid" nodeset="/data/meta/instanceID" readonly="true()" type="string"/>
+			<bind calculate="concat(jr:choice-name( /data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_FACILITY , ' /data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_FACILITY '), '-',  /data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_FACILITY , '-',  /data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASSR_NAME , '-',  /data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_DATE )" nodeset="/data/meta/instanceName" type="string"/>
+		</model>
+	</h:head>
+	<h:body class="pages">
+		<group appearance="field-list" ref="/data/SIMS.ASSESSMENT_DETAILS">
+			<label>SITE AND ASSESSORS DETAILS</label>
+			<input ref="/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASSR_NAME">
+				<label>Name:</label>
+			</input>
+			<select1 appearance="minimal" ref="/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_COUNTY">
+				<label>County:</label>
+				<item>
+					<label>Nairobi</label>
+					<value>nairobi</value>
+				</item>
+				<item>
+					<label>Kajiado</label>
+					<value>kajiado</value>
+				</item>
+			</select1>
+			<select1 appearance="minimal,autocomplete" ref="/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_SUB_COUNTY">
+				<label>Sub County:</label>
+				<itemset nodeset="instance('sub_counties')/root/item[county= /data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_COUNTY ]">
+					<value ref="name"/>
+					<label ref="label"/>
+				</itemset>
+			</select1>
+			<select1 appearance="minimal,autocomplete" ref="/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_FACILITY">
+				<label>Facility:</label>
+				<itemset nodeset="instance('facilities')/root/item[sub_county= /data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_SUB_COUNTY ]">
+					<value ref="name"/>
+					<label ref="label"/>
+				</itemset>
+			</select1>
+			<input ref="/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_FACILITY_MFL">
+				<label>Selected Facility MFL-code:</label>
+			</input>
+			<select1 appearance="horizontal" ref="/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_TYPE">
+				<label>Assessment Type:</label>
+				<item>
+					<label>Comprehensive</label>
+					<value>comprehensive</value>
+				</item>
+				<item>
+					<label>Follow-up</label>
+					<value>follow_up</value>
+				</item>
+			</select1>
+			<input ref="/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_DATE">
+				<label>Assessment Date:</label>
+			</input>
+			<input ref="/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_START_TIME">
+				<label>Assessment Start Time:</label>
+			</input>
+			<input ref="/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_END_TIME">
+				<label>Assessment End Time:</label>
+			</input>
+			<input ref="/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_LOCATION">
+				<label>Location:</label>
+			</input>
+		</group>
+		<group appearance="field-list" ref="/data/S_01_19">
+			<label>CEE #: S\_01\_19 Data Quality Assurance (Routine Activities)</label>
+			<input ref="/data/S_01_19/SIMS.S_01_19_DQA-Activities_STANDARD">
+				<label>__*STANDARD: Each site follows routine data quality assurance (DQA) procedures to verify the accuracy and completeness of reported ailment program data on at least a quarterly basis.*__</label>
+			</input>
+			<select1 appearance="horizontal" ref="/data/S_01_19/SIMS.S_01_19_DQA-Activities_Q1_RESP">
+				<label>Does the site have a documented process or set of standard operating procedures to ensure that the data it collects and reports to stakeholders accurately reflect the services provided at the site?</label>
+				<item>
+					<label>Yes</label>
+					<value>yes</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>no</value>
+				</item>
+			</select1>
+			<select ref="/data/S_01_19/SIMS.S_01_19_DQA-Activities_Q2_T-NUM">
+				<label>Which of the following data quality assurance or review activities are completed at least quarterly at the site?</label>
+				<hint>Tick all that apply; 
+Note: Routine data quality assurance activities may be conducted either by on-site staff, implementing partner staff, or an external team assigned to review the site.</hint>
+				<item>
+					<label>Reviews of registers and/or client record systems for data completeness</label>
+					<value>SIMS.S_01_19_DQA-Activities_Q2_CB1</value>
+				</item>
+				<item>
+					<label>Crosschecking (comparing) monthly reported results with client records, pharmacy records, registers, or other data sources</label>
+					<value>SIMS.S_01_19_DQA-Activities_Q2_CB2</value>
+				</item>
+				<item>
+					<label>Categorizing and separating active or enrolled client records from inactive/LTFU clients for reporting accuracy and client follow-up</label>
+					<value>SIMS.S_01_19_DQA-Activities_Q2_CB3</value>
+				</item>
+				<item>
+					<label>Assessing results during data review meetings with program staff; highlighting data discrepancies or outlier values; and documenting data quality concerns</label>
+					<value>SIMS.S_01_19_DQA-Activities_Q2_CB4</value>
+				</item>
+			</select>
+			<input appearance="multiline" ref="/data/S_01_19/SIMS.S_01_19_DQA-Activities_COMM">
+				<label>Comments</label>
+			</input>
+			<select1 appearance="minimal" ref="/data/S_01_19/SIMS.S_01_19_DQA-Activities_SCORE">
+				<label>Score</label>
+				<item>
+					<label>&lt;span style="color:gray"&gt;Gray&lt;/span&gt;</label>
+					<value>gray</value>
+				</item>
+				<item>
+					<label>&lt;span style="color:red"&gt;Red&lt;/span&gt;</label>
+					<value>red</value>
+				</item>
+				<item>
+					<label>&lt;span style="color:yellow"&gt;Yellow&lt;/span&gt;</label>
+					<value>yellow</value>
+				</item>
+				<item>
+					<label>&lt;span style="color:green"&gt;Green&lt;/span&gt;</label>
+					<value>green</value>
+				</item>
+			</select1>
+		</group>
+		<group appearance="field-list" ref="/data/S_01_20">
+			<label>CEE #: S\_01\_20 Assessment &amp; Utilization of Performance Data in QI Activities</label>
+			<input ref="/data/S_01_20/SIMS.S_01_20_PerfData_STANDARD">
+				<label>__*STANDARD: Each site has a process for routinely recording, reviewing, and using program data to inform implementation of quality improvement (QI) activities.*__</label>
+			</input>
+			<select1 appearance="horizontal" ref="/data/S_01_20/SIMS.S_01_20_PerfData_Q1_RESP">
+				<label>Does the site review key programmatic/performance indicators at least quarterly over the last 12 months at a minimum?</label>
+				<hint>Note: Programmatic/performance indicators can include PEPFAR Monitoring Evaluation and Reporting (MER) and/or Quality Improvement indicators. Documentation may include run charts, bar graphs, site reports, QI team improvement journals etc. If the site only reports annual review of key indicators, this response should be "No"</hint>
+				<item>
+					<label>Yes</label>
+					<value>yes</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>no</value>
+				</item>
+			</select1>
+			<select1 appearance="horizontal" ref="/data/S_01_20/SIMS.S_01_20_PerfData_Q2_RESP">
+				<label>Does a multidisciplinary team meet and discuss programmatic/performance data at least quarterly?</label>
+				<hint>Note: Multidisciplinary team includes clinicians, program staff, M&amp;E staff, lay counsellors, social workers, pharmacists, volunteers etc.</hint>
+				<item>
+					<label>Yes</label>
+					<value>yes</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>no</value>
+				</item>
+			</select1>
+			<select1 appearance="horizontal" ref="/data/S_01_20/SIMS.S_01_20_PerfData_Q3_RESP">
+				<label>Is there a documented site level plan for program improvement or QI initiatives outlining roles, responsibilities, activities implemented and quantifiable projected outcomes?</label>
+				<item>
+					<label>Yes</label>
+					<value>yes</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>no</value>
+				</item>
+			</select1>
+			<input appearance="multiline" ref="/data/S_01_20/SIMS.S_01_20_PerfData_COMM">
+				<label>Comments</label>
+			</input>
+			<select1 appearance="minimal" ref="/data/S_01_20/SIMS.S_01_20_PerfData_SCORE">
+				<label>Score</label>
+				<item>
+					<label>&lt;span style="color:gray"&gt;Gray&lt;/span&gt;</label>
+					<value>gray</value>
+				</item>
+				<item>
+					<label>&lt;span style="color:red"&gt;Red&lt;/span&gt;</label>
+					<value>red</value>
+				</item>
+				<item>
+					<label>&lt;span style="color:yellow"&gt;Yellow&lt;/span&gt;</label>
+					<value>yellow</value>
+				</item>
+				<item>
+					<label>&lt;span style="color:green"&gt;Green&lt;/span&gt;</label>
+					<value>green</value>
+				</item>
+			</select1>
+		</group>
+		<group appearance="field-list" ref="/data/S_01_21">
+			<label>CEE #: S\_01\_21 Data Reporting Consistency – TX\_NEW-C&amp;T</label>
+			<input ref="/data/S_01_21/SIMS.S_01_21_DataRepConTX_STANDARD">
+				<label>__*STANDARD: Indicator reports in TEST for PEPFAR Monitoring Evaluation Reporting (MER) indicator TX\_NEW match summary reports maintained at facility level for the same reporting period.*__</label>
+			</input>
+			<input ref="/data/S_01_21/SIMS.S_01_21_DataRepConTX_INSTRUCTIONS">
+				<label>_Instructions: Does this facility report on the PEPFAR MER TX\_NEW indicator? If NO, check NA, and SKIP this CEE. If YES, assessor must retrieve the facility-level TEST indicator report for the last PEPFAR quarterly report prior to visit._</label>
+			</input>
+			<trigger appearance="horizontal" ref="/data/S_01_21/SIMS.S_01_21_DataRepConTX_NA">
+				<label>__*Not Applicable?*__</label>
+			</trigger>
+			<select1 appearance="horizontal" ref="/data/S_01_21/SIMS.S_01_21_DataRepConTX_Q1_RESP">
+				<label>For TX\_NEW, does the facility have the summary report (monthly or quarterly) or summary number for the exact same reporting period of the TEST report retrieved by the assessor?</label>
+				<hint>(Note: A quarterly TEST report may need to be reconstructed from 3 monthly reports found at the facility.)</hint>
+				<item>
+					<label>Yes</label>
+					<value>yes</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>no</value>
+				</item>
+			</select1>
+			<group appearance="field-list" ref="/data/S_01_21/SIMS.S_01_21_DataRepConTX_Q2_PERC">
+				<input ref="/data/S_01_21/SIMS.S_01_21_DataRepConTX_Q2_PERC/generated_table_list_label_34">
+					<label>Using the TEST report and the facility summary report(s), fill in the table below</label>
+				</input>
+				<input ref="/data/S_01_21/SIMS.S_01_21_DataRepConTX_Q2_PERC/SIMS.S_01_21_DataRepConTX_Q2_A">
+					<label>TEST Report</label>
+				</input>
+				<input ref="/data/S_01_21/SIMS.S_01_21_DataRepConTX_Q2_PERC/SIMS.S_01_21_DataRepConTX_Q2_B">
+					<label>Facility Report (s)</label>
+				</input>
+				<input ref="/data/S_01_21/SIMS.S_01_21_DataRepConTX_Q2_PERC/SIMS.S_01_21_DataRepConTX_Q2_C">
+					<label>Difference TEST – Facility (A-B)</label>
+				</input>
+				<input ref="/data/S_01_21/SIMS.S_01_21_DataRepConTX_Q2_PERC/SIMS.S_01_21_DataRepConTX_Q2_D">
+					<label>% Difference (C/B)</label>
+				</input>
+			</group>
+			<input appearance="multiline" ref="/data/S_01_21/SIMS.S_01_21_DataRepConTX_COMM">
+				<label>Comments</label>
+			</input>
+			<select1 appearance="minimal" ref="/data/S_01_21/SIMS.S_01_21_DataRepConTX_SCORE">
+				<label>Score</label>
+				<item>
+					<label>&lt;span style="color:gray"&gt;Gray&lt;/span&gt;</label>
+					<value>gray</value>
+				</item>
+				<item>
+					<label>&lt;span style="color:red"&gt;Red&lt;/span&gt;</label>
+					<value>red</value>
+				</item>
+				<item>
+					<label>&lt;span style="color:yellow"&gt;Yellow&lt;/span&gt;</label>
+					<value>yellow</value>
+				</item>
+				<item>
+					<label>&lt;span style="color:green"&gt;Green&lt;/span&gt;</label>
+					<value>green</value>
+				</item>
+			</select1>
+		</group>
+		<group appearance="field-list" ref="/data/S_01_22">
+			<label>CEE #: S\_01\_22 Data Reporting Consistency – HTS\_TST</label>
+			<input ref="/data/S_01_22/SIMS.S_01_22_DataRepConHTS_STANDARD">
+				<label>__*STANDARD: Indicator reports in TEST for MER Indicator HTS\_TST match summary reports maintained at facility level for the same reporting period.*__</label>
+			</input>
+			<input ref="/data/S_01_22/SIMS.S_01_22_DataRepConHTS_INSTRUCTIONS">
+				<label>_Instructions: Does this facility report on PEPFAR HTS\_TST indicator? If NO, check NA, and SKIP this CEE. If YES, assessor must retrieve the facility-level TEST indicator report for the last PEPFAR quarterly report prior to visit._</label>
+			</input>
+			<trigger appearance="horizontal" ref="/data/S_01_22/SIMS.S_01_22_DataRepConHTS_NA">
+				<label>__*Not Applicable?*__</label>
+			</trigger>
+			<select1 appearance="horizontal" ref="/data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q1_RESP">
+				<label>Does the facility have the summary report (monthly or quarterly) or summary number for the exact same reporting period of the TEST report retrieved by the assessor for HTS\_TST?</label>
+				<hint>Note: A quarterly TEST report may need to be reconstructed from 3 monthly reports found at the facility.
+HTS\_TST is aggregated across all ailment testing points. Reports may need to be compiled from different testing points within a clinic; confirm with implementing partner which testing points contribute to the reported number in TEST.</hint>
+				<item>
+					<label>Yes</label>
+					<value>yes</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>no</value>
+				</item>
+			</select1>
+			<group appearance="field-list" ref="/data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q2_PERC">
+				<input ref="/data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q2_PERC/generated_table_list_label_48">
+					<label>Using the TEST report and the facility summary report(s), fill in the table below.</label>
+				</input>
+				<input ref="/data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q2_PERC/SIMS.S_01_22_DataRepConHTS_Q2_A">
+					<label>TEST Report</label>
+				</input>
+				<input ref="/data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q2_PERC/SIMS.S_01_22_DataRepConHTS_Q2_B">
+					<label>Facility Report (s)</label>
+				</input>
+				<input ref="/data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q2_PERC/SIMS.S_01_22_DataRepConHTS_Q2_C">
+					<label>Difference TEST – Facility (A-B)</label>
+				</input>
+				<input ref="/data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q2_PERC/SIMS.S_01_22_DataRepConHTS_Q2_D">
+					<label>% Difference (C/B)</label>
+				</input>
+			</group>
+			<input appearance="multiline" ref="/data/S_01_22/SIMS.S_01_22_DataRepConHTS_COMM">
+				<label>Comments</label>
+			</input>
+			<select1 appearance="minimal" ref="/data/S_01_22/SIMS.S_01_22_DataRepConHTS_SCORE">
+				<label>Score</label>
+				<item>
+					<label>&lt;span style="color:gray"&gt;Gray&lt;/span&gt;</label>
+					<value>gray</value>
+				</item>
+				<item>
+					<label>&lt;span style="color:red"&gt;Red&lt;/span&gt;</label>
+					<value>red</value>
+				</item>
+				<item>
+					<label>&lt;span style="color:yellow"&gt;Yellow&lt;/span&gt;</label>
+					<value>yellow</value>
+				</item>
+				<item>
+					<label>&lt;span style="color:green"&gt;Green&lt;/span&gt;</label>
+					<value>green</value>
+				</item>
+			</select1>
+		</group>
+		<group appearance="field-list" ref="/data/S_01_23">
+			<label>CEE #: S\_01\_23 Data Reporting Consistency – PMTCT\_STAT</label>
+			<input ref="/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_STANDARD">
+				<label>__*STANDARD: Indicator reports in TEST match summary reports maintained at facility level for the same reporting period.*__</label>
+			</input>
+			<input ref="/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_INSTRUCTIONS">
+				<label>_Instructions: Does this facility report on PEPFAR PMTCT\_STAT indicator? If NO, check NA, and SKIP this CEE. If YES, assessor must retrieve the facility-level TEST indicator report for the last PEPFAR quarterly report prior to visit._</label>
+			</input>
+			<trigger appearance="horizontal" ref="/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_NA">
+				<label>__*Not Applicable?*__</label>
+			</trigger>
+			<select1 appearance="horizontal" ref="/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q1_RESP">
+				<label>Does the facility have the summary report (monthly or quarterly) or summary number for the exact same reporting period of the TEST report retrieved by the assessor for PMTCT\_STAT?</label>
+				<hint>Note: A quarterly TEST report may need to be reconstructed from 3 monthly reports found at the facility.</hint>
+				<item>
+					<label>Yes</label>
+					<value>yes</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>no</value>
+				</item>
+			</select1>
+			<group appearance="field-list" ref="/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q2_PERC">
+				<input ref="/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q2_PERC/generated_table_list_label_62">
+					<label>Using the TEST report and the facility summary report(s), fill in the table below.</label>
+				</input>
+				<input ref="/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q2_PERC/SIMS.S_01_23_DataRepConPMTCT_Q2_A">
+					<label>TEST Report</label>
+				</input>
+				<input ref="/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q2_PERC/SIMS.S_01_23_DataRepConPMTCT_Q2_B">
+					<label>Facility Report (s)</label>
+				</input>
+				<input ref="/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q2_PERC/SIMS.S_01_23_DataRepConPMTCT_Q2_C">
+					<label>Difference TEST – Facility (A-B)</label>
+				</input>
+				<input ref="/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q2_PERC/SIMS.S_01_23_DataRepConPMTCT_Q2_D">
+					<label>% Difference (C/B)</label>
+				</input>
+			</group>
+			<input appearance="multiline" ref="/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_COMM">
+				<label>Comments</label>
+			</input>
+			<select1 appearance="minimal" ref="/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_SCORE">
+				<label>Score</label>
+				<item>
+					<label>&lt;span style="color:gray"&gt;Gray&lt;/span&gt;</label>
+					<value>gray</value>
+				</item>
+				<item>
+					<label>&lt;span style="color:red"&gt;Red&lt;/span&gt;</label>
+					<value>red</value>
+				</item>
+				<item>
+					<label>&lt;span style="color:yellow"&gt;Yellow&lt;/span&gt;</label>
+					<value>yellow</value>
+				</item>
+				<item>
+					<label>&lt;span style="color:green"&gt;Green&lt;/span&gt;</label>
+					<value>green</value>
+				</item>
+			</select1>
+		</group>
+		<group appearance="field-list" ref="/data/S_01_24">
+			<label>CEE #: S\_01\_24 Data Reporting Consistency – VMMC\_CIRC</label>
+			<input ref="/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_STANDARD">
+				<label>__*STANDARD: Indicator reports in TEST match summary reports maintained at facility level for the same reporting period.*__</label>
+			</input>
+			<input ref="/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_INSTRUCTIONS">
+				<label>_Instructions: Does this facility report on PEPFAR VMMC\_CIRC indicator? If NO, check NA, and SKIP this CEE. If YES, assessor must retrieve the facility-level TEST indicator report for the last PEPFAR quarterly report prior to visit._</label>
+			</input>
+			<trigger appearance="horizontal" ref="/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_NA">
+				<label>__*Not Applicable?*__</label>
+			</trigger>
+			<select1 appearance="horizontal" ref="/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q1_RESP">
+				<label>Does the facility have the summary report (monthly or quarterly) or summary number for the exact same reporting period of the TEST report retrieved by the assessor for VMMC\_CIRC?</label>
+				<hint>(Note: A quarterly TEST report may need to be reconstructed from 3 monthly reports found at the facility.)</hint>
+				<item>
+					<label>Yes</label>
+					<value>yes</value>
+				</item>
+				<item>
+					<label>No</label>
+					<value>no</value>
+				</item>
+			</select1>
+			<group appearance="field-list" ref="/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q2_PERC">
+				<input ref="/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q2_PERC/generated_table_list_label_76">
+					<label>Using the TEST report and the facility summary report(s), fill in the table below.</label>
+				</input>
+				<input ref="/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q2_PERC/SIMS.S_01_24_DataRepConVMMC_Q2_A">
+					<label>TEST Report</label>
+				</input>
+				<input ref="/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q2_PERC/SIMS.S_01_24_DataRepConVMMC_Q2_B">
+					<label>Facility Report (s)</label>
+				</input>
+				<input ref="/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q2_PERC/SIMS.S_01_24_DataRepConVMMC_Q2_C">
+					<label>Difference TEST – Facility (A-B)</label>
+				</input>
+				<input ref="/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q2_PERC/SIMS.S_01_24_DataRepConVMMC_Q2_D">
+					<label>% Difference (C/B)</label>
+				</input>
+			</group>
+			<input appearance="multiline" ref="/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_COMM">
+				<label>Comments</label>
+			</input>
+			<select1 appearance="minimal" ref="/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_SCORE">
+				<label>Score</label>
+				<item>
+					<label>&lt;span style="color:gray"&gt;Gray&lt;/span&gt;</label>
+					<value>gray</value>
+				</item>
+				<item>
+					<label>&lt;span style="color:red"&gt;Red&lt;/span&gt;</label>
+					<value>red</value>
+				</item>
+				<item>
+					<label>&lt;span style="color:yellow"&gt;Yellow&lt;/span&gt;</label>
+					<value>yellow</value>
+				</item>
+				<item>
+					<label>&lt;span style="color:green"&gt;Green&lt;/span&gt;</label>
+					<value>green</value>
+				</item>
+			</select1>
+		</group>
+	</h:body>
+</h:html>

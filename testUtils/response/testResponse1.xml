@@ -1,0 +1,19 @@
+<data xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms" id="aFTnsgXB85pUR2XCeaWZ9N" version="4 (2022-05-18 14:37:20)">
+	<start>2022-05-18T14:39:50.591+03:00</start>
+	<end>2022-05-18T14:40:05.863+03:00</end>
+	<PHQ9_1>2</PHQ9_1>
+	<PHQ9_2>2</PHQ9_2>
+	<PHQ9_3>2</PHQ9_3>
+	<PHQ9_4>2</PHQ9_4>
+	<PHQ9_5>2</PHQ9_5>
+	<PHQ9_6>2</PHQ9_6>
+	<PHQ9_7>2</PHQ9_7>
+	<PHQ9_8>2</PHQ9_8>
+	<PHQ9_9>2</PHQ9_9>
+	<PHQ9_10>2</PHQ9_10>
+	<score>20</score>
+	<send_alert>yes</send_alert>
+	<meta>
+		<instanceID>uuid:be25f076-e702-42a2-847f-ecf7386aae14</instanceID>
+	</meta>
+</data>

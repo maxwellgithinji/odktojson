@@ -1,0 +1,109 @@
+{
+  "Bindings": [
+    {
+      "Preload": "timestamp",
+      "PreloadParams": "start",
+      "NodeSet": "/data/start",
+      "Type": "dateTime",
+      "Required": ""
+    },
+    {
+      "Preload": "timestamp",
+      "PreloadParams": "end",
+      "NodeSet": "/data/end",
+      "Type": "dateTime",
+      "Required": ""
+    },
+    {
+      "Preload": "",
+      "PreloadParams": "",
+      "NodeSet": "/data/PHQ9_1",
+      "Type": "string",
+      "Required": "true()"
+    },
+    {
+      "Preload": "",
+      "PreloadParams": "",
+      "NodeSet": "/data/PHQ9_2",
+      "Type": "string",
+      "Required": "true()"
+    },
+    {
+      "Preload": "",
+      "PreloadParams": "",
+      "NodeSet": "/data/PHQ9_3",
+      "Type": "string",
+      "Required": "true()"
+    },
+    {
+      "Preload": "",
+      "PreloadParams": "",
+      "NodeSet": "/data/PHQ9_4",
+      "Type": "string",
+      "Required": "true()"
+    },
+    {
+      "Preload": "",
+      "PreloadParams": "",
+      "NodeSet": "/data/PHQ9_5",
+      "Type": "string",
+      "Required": "true()"
+    },
+    {
+      "Preload": "",
+      "PreloadParams": "",
+      "NodeSet": "/data/PHQ9_6",
+      "Type": "string",
+      "Required": "true()"
+    },
+    {
+      "Preload": "",
+      "PreloadParams": "",
+      "NodeSet": "/data/PHQ9_7",
+      "Type": "string",
+      "Required": "true()"
+    },
+    {
+      "Preload": "",
+      "PreloadParams": "",
+      "NodeSet": "/data/PHQ9_8",
+      "Type": "string",
+      "Required": "true()"
+    },
+    {
+      "Preload": "",
+      "PreloadParams": "",
+      "NodeSet": "/data/PHQ9_9",
+      "Type": "string",
+      "Required": "true()"
+    },
+    {
+      "Preload": "",
+      "PreloadParams": "",
+      "NodeSet": "/data/PHQ9_10",
+      "Type": "string",
+      "Required": "true()"
+    },
+    {
+      "Preload": "",
+      "PreloadParams": "",
+      "NodeSet": "/data/score",
+      "Type": "string",
+      "Required": "false()"
+    },
+    {
+      "Preload": "",
+      "PreloadParams": "",
+      "NodeSet": "/data/send_alert",
+      "Type": "string",
+      "Required": "false()"
+    },
+    {
+      "Preload": "uid",
+      "PreloadParams": "",
+      "NodeSet": "/data/meta/instanceID",
+      "Type": "string",
+      "Required": ""
+    }
+  ]
+}

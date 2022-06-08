@@ -1,0 +1,534 @@
+{
+  "Group": [
+    {
+      "Input": [
+        {
+          "Label": {
+            "Text": "Name:"
+          }
+        },
+        {
+          "Label": {
+            "Text": "Selected Facility MFL-code:"
+          }
+        },
+        {
+          "Label": {
+            "Text": "Assessment Date:"
+          }
+        },
+        {
+          "Label": {
+            "Text": "Assessment Start Time:"
+          }
+        },
+        {
+          "Label": {
+            "Text": "Assessment End Time:"
+          }
+        },
+        {
+          "Label": {
+            "Text": "Location:"
+          }
+        }
+      ],
+      "Select1": [
+        {
+          "Ref": "/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_COUNTY",
+          "Label": "County:",
+          "Hint": "",
+          "Trigger": {
+            "Label": ""
+          },
+          "Items": [
+            {
+              "Label": "Nairobi",
+              "Value": "nairobi"
+            },
+            {
+              "Label": "Kajiado",
+              "Value": "kajiado"
+            }
+          ],
+          "QuestionType": ""
+        },
+        {
+          "Ref": "/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_SUB_COUNTY",
+          "Label": "Sub County:",
+          "Hint": "",
+          "Trigger": {
+            "Label": ""
+          },
+          "Items": null,
+          "QuestionType": ""
+        },
+        {
+          "Ref": "/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_FACILITY",
+          "Label": "Facility:",
+          "Hint": "",
+          "Trigger": {
+            "Label": ""
+          },
+          "Items": null,
+          "QuestionType": ""
+        },
+        {
+          "Ref": "/data/SIMS.ASSESSMENT_DETAILS/SIMS.CS_ASMT_TYPE",
+          "Label": "Assessment Type:",
+          "Hint": "",
+          "Trigger": {
+            "Label": ""
+          },
+          "Items": [
+            {
+              "Label": "Comprehensive",
+              "Value": "comprehensive"
+            },
+            {
+              "Label": "Follow-up",
+              "Value": "follow_up"
+            }
+          ],
+          "QuestionType": ""
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Label": {
+            "Text": "__*STANDARD: Each site follows routine data quality assurance (DQA) procedures to verify the accuracy and completeness of reported ailment program data on at least a quarterly basis.*__"
+          }
+        },
+        {
+          "Label": {
+            "Text": "Comments"
+          }
+        }
+      ],
+      "Select1": [
+        {
+          "Ref": "/data/S_01_19/SIMS.S_01_19_DQA-Activities_Q1_RESP",
+          "Label": "Does the site have a documented process or set of standard operating procedures to ensure that the data it collects and reports to stakeholders accurately reflect the services provided at the site?",
+          "Hint": "",
+          "Trigger": {
+            "Label": ""
+          },
+          "Items": [
+            {
+              "Label": "Yes",
+              "Value": "yes"
+            },
+            {
+              "Label": "No",
+              "Value": "no"
+            }
+          ],
+          "QuestionType": ""
+        },
+        {
+          "Ref": "/data/S_01_19/SIMS.S_01_19_DQA-Activities_SCORE",
+          "Label": "Score",
+          "Hint": "",
+          "Trigger": {
+            "Label": ""
+          },
+          "Items": [
+            {
+              "Label": "\u003cspan style=\"color:gray\"\u003eGray\u003c/span\u003e",
+              "Value": "gray"
+            },
+            {
+              "Label": "\u003cspan style=\"color:red\"\u003eRed\u003c/span\u003e",
+              "Value": "red"
+            },
+            {
+              "Label": "\u003cspan style=\"color:yellow\"\u003eYellow\u003c/span\u003e",
+              "Value": "yellow"
+            },
+            {
+              "Label": "\u003cspan style=\"color:green\"\u003eGreen\u003c/span\u003e",
+              "Value": "green"
+            }
+          ],
+          "QuestionType": ""
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Label": {
+            "Text": "__*STANDARD: Each site has a process for routinely recording, reviewing, and using program data to inform implementation of quality improvement (QI) activities.*__"
+          }
+        },
+        {
+          "Label": {
+            "Text": "Comments"
+          }
+        }
+      ],
+      "Select1": [
+        {
+          "Ref": "/data/S_01_20/SIMS.S_01_20_PerfData_Q1_RESP",
+          "Label": "Does the site review key programmatic/performance indicators at least quarterly over the last 12 months at a minimum?",
+          "Hint": "Note: Programmatic/performance indicators can include PEPFAR Monitoring Evaluation and Reporting (MER) and/or Quality Improvement indicators. Documentation may include run charts, bar graphs, site reports, QI team improvement journals etc. If the site only reports annual review of key indicators, this response should be \"No\"",
+          "Trigger": {
+            "Label": ""
+          },
+          "Items": [
+            {
+              "Label": "Yes",
+              "Value": "yes"
+            },
+            {
+              "Label": "No",
+              "Value": "no"
+            }
+          ],
+          "QuestionType": ""
+        },
+        {
+          "Ref": "/data/S_01_20/SIMS.S_01_20_PerfData_Q2_RESP",
+          "Label": "Does a multidisciplinary team meet and discuss programmatic/performance data at least quarterly?",
+          "Hint": "Note: Multidisciplinary team includes clinicians, program staff, M\u0026E staff, lay counsellors, social workers, pharmacists, volunteers etc.",
+          "Trigger": {
+            "Label": ""
+          },
+          "Items": [
+            {
+              "Label": "Yes",
+              "Value": "yes"
+            },
+            {
+              "Label": "No",
+              "Value": "no"
+            }
+          ],
+          "QuestionType": ""
+        },
+        {
+          "Ref": "/data/S_01_20/SIMS.S_01_20_PerfData_Q3_RESP",
+          "Label": "Is there a documented site level plan for program improvement or QI initiatives outlining roles, responsibilities, activities implemented and quantifiable projected outcomes?",
+          "Hint": "",
+          "Trigger": {
+            "Label": ""
+          },
+          "Items": [
+            {
+              "Label": "Yes",
+              "Value": "yes"
+            },
+            {
+              "Label": "No",
+              "Value": "no"
+            }
+          ],
+          "QuestionType": ""
+        },
+        {
+          "Ref": "/data/S_01_20/SIMS.S_01_20_PerfData_SCORE",
+          "Label": "Score",
+          "Hint": "",
+          "Trigger": {
+            "Label": ""
+          },
+          "Items": [
+            {
+              "Label": "\u003cspan style=\"color:gray\"\u003eGray\u003c/span\u003e",
+              "Value": "gray"
+            },
+            {
+              "Label": "\u003cspan style=\"color:red\"\u003eRed\u003c/span\u003e",
+              "Value": "red"
+            },
+            {
+              "Label": "\u003cspan style=\"color:yellow\"\u003eYellow\u003c/span\u003e",
+              "Value": "yellow"
+            },
+            {
+              "Label": "\u003cspan style=\"color:green\"\u003eGreen\u003c/span\u003e",
+              "Value": "green"
+            }
+          ],
+          "QuestionType": ""
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Label": {
+            "Text": "__*STANDARD: Indicator reports in TEST for PEPFAR Monitoring Evaluation Reporting (MER) indicator TX\\_NEW match summary reports maintained at facility level for the same reporting period.*__"
+          }
+        },
+        {
+          "Label": {
+            "Text": "_Instructions: Does this facility report on the PEPFAR MER TX\\_NEW indicator? If NO, check NA, and SKIP this CEE. If YES, assessor must retrieve the facility-level TEST indicator report for the last PEPFAR quarterly report prior to visit._"
+          }
+        },
+        {
+          "Label": {
+            "Text": "Comments"
+          }
+        }
+      ],
+      "Select1": [
+        {
+          "Ref": "/data/S_01_21/SIMS.S_01_21_DataRepConTX_Q1_RESP",
+          "Label": "For TX\\_NEW, does the facility have the summary report (monthly or quarterly) or summary number for the exact same reporting period of the TEST report retrieved by the assessor?",
+          "Hint": "(Note: A quarterly TEST report may need to be reconstructed from 3 monthly reports found at the facility.)",
+          "Trigger": {
+            "Label": ""
+          },
+          "Items": [
+            {
+              "Label": "Yes",
+              "Value": "yes"
+            },
+            {
+              "Label": "No",
+              "Value": "no"
+            }
+          ],
+          "QuestionType": ""
+        },
+        {
+          "Ref": "/data/S_01_21/SIMS.S_01_21_DataRepConTX_SCORE",
+          "Label": "Score",
+          "Hint": "",
+          "Trigger": {
+            "Label": ""
+          },
+          "Items": [
+            {
+              "Label": "\u003cspan style=\"color:gray\"\u003eGray\u003c/span\u003e",
+              "Value": "gray"
+            },
+            {
+              "Label": "\u003cspan style=\"color:red\"\u003eRed\u003c/span\u003e",
+              "Value": "red"
+            },
+            {
+              "Label": "\u003cspan style=\"color:yellow\"\u003eYellow\u003c/span\u003e",
+              "Value": "yellow"
+            },
+            {
+              "Label": "\u003cspan style=\"color:green\"\u003eGreen\u003c/span\u003e",
+              "Value": "green"
+            }
+          ],
+          "QuestionType": ""
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Label": {
+            "Text": "__*STANDARD: Indicator reports in TEST for MER Indicator HTS\\_TST match summary reports maintained at facility level for the same reporting period.*__"
+          }
+        },
+        {
+          "Label": {
+            "Text": "_Instructions: Does this facility report on PEPFAR HTS\\_TST indicator? If NO, check NA, and SKIP this CEE. If YES, assessor must retrieve the facility-level TEST indicator report for the last PEPFAR quarterly report prior to visit._"
+          }
+        },
+        {
+          "Label": {
+            "Text": "Comments"
+          }
+        }
+      ],
+      "Select1": [
+        {
+          "Ref": "/data/S_01_22/SIMS.S_01_22_DataRepConHTS_Q1_RESP",
+          "Label": "Does the facility have the summary report (monthly or quarterly) or summary number for the exact same reporting period of the TEST report retrieved by the assessor for HTS\\_TST?",
+          "Hint": "Note: A quarterly TEST report may need to be reconstructed from 3 monthly reports found at the facility.\nHTS\\_TST is aggregated across all ailment testing points. Reports may need to be compiled from different testing points within a clinic; confirm with implementing partner which testing points contribute to the reported number in TEST.",
+          "Trigger": {
+            "Label": ""
+          },
+          "Items": [
+            {
+              "Label": "Yes",
+              "Value": "yes"
+            },
+            {
+              "Label": "No",
+              "Value": "no"
+            }
+          ],
+          "QuestionType": ""
+        },
+        {
+          "Ref": "/data/S_01_22/SIMS.S_01_22_DataRepConHTS_SCORE",
+          "Label": "Score",
+          "Hint": "",
+          "Trigger": {
+            "Label": ""
+          },
+          "Items": [
+            {
+              "Label": "\u003cspan style=\"color:gray\"\u003eGray\u003c/span\u003e",
+              "Value": "gray"
+            },
+            {
+              "Label": "\u003cspan style=\"color:red\"\u003eRed\u003c/span\u003e",
+              "Value": "red"
+            },
+            {
+              "Label": "\u003cspan style=\"color:yellow\"\u003eYellow\u003c/span\u003e",
+              "Value": "yellow"
+            },
+            {
+              "Label": "\u003cspan style=\"color:green\"\u003eGreen\u003c/span\u003e",
+              "Value": "green"
+            }
+          ],
+          "QuestionType": ""
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Label": {
+            "Text": "__*STANDARD: Indicator reports in TEST match summary reports maintained at facility level for the same reporting period.*__"
+          }
+        },
+        {
+          "Label": {
+            "Text": "_Instructions: Does this facility report on PEPFAR PMTCT\\_STAT indicator? If NO, check NA, and SKIP this CEE. If YES, assessor must retrieve the facility-level TEST indicator report for the last PEPFAR quarterly report prior to visit._"
+          }
+        },
+        {
+          "Label": {
+            "Text": "Comments"
+          }
+        }
+      ],
+      "Select1": [
+        {
+          "Ref": "/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_Q1_RESP",
+          "Label": "Does the facility have the summary report (monthly or quarterly) or summary number for the exact same reporting period of the TEST report retrieved by the assessor for PMTCT\\_STAT?",
+          "Hint": "Note: A quarterly TEST report may need to be reconstructed from 3 monthly reports found at the facility.",
+          "Trigger": {
+            "Label": ""
+          },
+          "Items": [
+            {
+              "Label": "Yes",
+              "Value": "yes"
+            },
+            {
+              "Label": "No",
+              "Value": "no"
+            }
+          ],
+          "QuestionType": ""
+        },
+        {
+          "Ref": "/data/S_01_23/SIMS.S_01_23_DataRepConPMTCT_SCORE",
+          "Label": "Score",
+          "Hint": "",
+          "Trigger": {
+            "Label": ""
+          },
+          "Items": [
+            {
+              "Label": "\u003cspan style=\"color:gray\"\u003eGray\u003c/span\u003e",
+              "Value": "gray"
+            },
+            {
+              "Label": "\u003cspan style=\"color:red\"\u003eRed\u003c/span\u003e",
+              "Value": "red"
+            },
+            {
+              "Label": "\u003cspan style=\"color:yellow\"\u003eYellow\u003c/span\u003e",
+              "Value": "yellow"
+            },
+            {
+              "Label": "\u003cspan style=\"color:green\"\u003eGreen\u003c/span\u003e",
+              "Value": "green"
+            }
+          ],
+          "QuestionType": ""
+        }
+      ]
+    },
+    {
+      "Input": [
+        {
+          "Label": {
+            "Text": "__*STANDARD: Indicator reports in TEST match summary reports maintained at facility level for the same reporting period.*__"
+          }
+        },
+        {
+          "Label": {
+            "Text": "_Instructions: Does this facility report on PEPFAR VMMC\\_CIRC indicator? If NO, check NA, and SKIP this CEE. If YES, assessor must retrieve the facility-level TEST indicator report for the last PEPFAR quarterly report prior to visit._"
+          }
+        },
+        {
+          "Label": {
+            "Text": "Comments"
+          }
+        }
+      ],
+      "Select1": [
+        {
+          "Ref": "/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_Q1_RESP",
+          "Label": "Does the facility have the summary report (monthly or quarterly) or summary number for the exact same reporting period of the TEST report retrieved by the assessor for VMMC\\_CIRC?",
+          "Hint": "(Note: A quarterly TEST report may need to be reconstructed from 3 monthly reports found at the facility.)",
+          "Trigger": {
+            "Label": ""
+          },
+          "Items": [
+            {
+              "Label": "Yes",
+              "Value": "yes"
+            },
+            {
+              "Label": "No",
+              "Value": "no"
+            }
+          ],
+          "QuestionType": ""
+        },
+        {
+          "Ref": "/data/S_01_24/SIMS.S_01_24_DataRepConVMMC_SCORE",
+          "Label": "Score",
+          "Hint": "",
+          "Trigger": {
+            "Label": ""
+          },
+          "Items": [
+            {
+              "Label": "\u003cspan style=\"color:gray\"\u003eGray\u003c/span\u003e",
+              "Value": "gray"
+            },
+            {
+              "Label": "\u003cspan style=\"color:red\"\u003eRed\u003c/span\u003e",
+              "Value": "red"
+            },
+            {
+              "Label": "\u003cspan style=\"color:yellow\"\u003eYellow\u003c/span\u003e",
+              "Value": "yellow"
+            },
+            {
+              "Label": "\u003cspan style=\"color:green\"\u003eGreen\u003c/span\u003e",
+              "Value": "green"
+            }
+          ],
+          "QuestionType": ""
+        }
+      ]
+    }
+  ],
+  "Select1": null,
+  "XMLAttributes": null,
+  "XMLName": {
+    "Local": "body",
+    "Space": "http://www.w3.org/1999/xhtml"
+  }
+}

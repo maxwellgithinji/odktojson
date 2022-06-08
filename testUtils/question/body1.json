@@ -1,0 +1,239 @@
+{ 
+  "XMLName": {
+    "Local": "body",
+    "Space": "http://www.w3.org/1999/xhtml"
+  },
+  "Select1": [
+    {
+      "Ref": "/data/PHQ9_1",
+      "Label": "Over the last 2 weeks how often have you been bothered by little interest of pleasure in doing things?",
+      "Items": [
+        {
+          "Label": "Not at all",
+          "Value": "0"
+        },
+        {
+          "Label": "Several Days",
+          "Value": "1"
+        },
+        {
+          "Label": "More than half a day",
+          "Value": "2"
+        },
+        {
+          "Label": "Nearly every day",
+          "Value": "3"
+        }
+      ],
+      "QuestionType": ""
+    },
+    {
+      "Ref": "/data/PHQ9_2",
+      "Label": "Over the last 2 weeks how often have you been bothered by feeling down, depressed or hopeless?",
+      "Items": [
+        {
+          "Label": "Not at all",
+          "Value": "0"
+        },
+        {
+          "Label": "Several Days",
+          "Value": "1"
+        },
+        {
+          "Label": "More than half a day",
+          "Value": "2"
+        },
+        {
+          "Label": "Nearly every day",
+          "Value": "3"
+        }
+      ],
+      "QuestionType": ""
+    },
+    {
+      "Ref": "/data/PHQ9_3",
+      "Label": "Over the last 2 weeks how often have you been bothered by trouble falling asleep or sleeping too much?",
+      "Items": [
+        {
+          "Label": "Not at all",
+          "Value": "0"
+        },
+        {
+          "Label": "Several Days",
+          "Value": "1"
+        },
+        {
+          "Label": "More than half a day",
+          "Value": "2"
+        },
+        {
+          "Label": "Nearly every day",
+          "Value": "3"
+        }
+      ],
+      "QuestionType": ""
+    },
+    {
+      "Ref": "/data/PHQ9_4",
+      "Label": "Over the last 2 weeks how often have you been bothered by feeling tired or having little energy?",
+      "Items": [
+        {
+          "Label": "Not at all",
+          "Value": "0"
+        },
+        {
+          "Label": "Several Days",
+          "Value": "1"
+        },
+        {
+          "Label": "More than half a day",
+          "Value": "2"
+        },
+        {
+          "Label": "Nearly every day",
+          "Value": "3"
+        }
+      ],
+      "QuestionType": ""
+    },
+    {
+      "Ref": "/data/PHQ9_5",
+      "Label": "Over the last 2 weeks how often have you been bothered by poor appetite or overeating?",
+      "Items": [
+        {
+          "Label": "Not at all",
+          "Value": "0"
+        },
+        {
+          "Label": "Several Days",
+          "Value": "1"
+        },
+        {
+          "Label": "More than half a day",
+          "Value": "2"
+        },
+        {
+          "Label": "Nearly every day",
+          "Value": "3"
+        }
+      ],
+      "QuestionType": ""
+    },
+    {
+      "Ref": "/data/PHQ9_6",
+      "Label": "Over the last 2 weeks how often have you been bothered by feeling bad about yourself -- or that you are a failure or have let yourself or family down/",
+      "Items": [
+        {
+          "Label": "Not at all",
+          "Value": "0"
+        },
+        {
+          "Label": "Several Days",
+          "Value": "1"
+        },
+        {
+          "Label": "More than half a day",
+          "Value": "2"
+        },
+        {
+          "Label": "Nearly every day",
+          "Value": "3"
+        }
+      ],
+      "QuestionType": ""
+    },
+    {
+      "Ref": "/data/PHQ9_7",
+      "Label": "Over the last 2 weeks how often have you been bothered by trouble concentrating on things, such as reading the newspaper or watching television?",
+      "Items": [
+        {
+          "Label": "Not at all",
+          "Value": "0"
+        },
+        {
+          "Label": "Several Days",
+          "Value": "1"
+        },
+        {
+          "Label": "More than half a day",
+          "Value": "2"
+        },
+        {
+          "Label": "Nearly every day",
+          "Value": "3"
+        }
+      ],
+      "QuestionType": ""
+    },
+    {
+      "Ref": "/data/PHQ9_8",
+      "Label": "Over the last 2 weeks how often have you been bothered by moving or speaking so slowly that other people could have noticed? Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual?",
+      "Items": [
+        {
+          "Label": "Not at all",
+          "Value": "0"
+        },
+        {
+          "Label": "Several Days",
+          "Value": "1"
+        },
+        {
+          "Label": "More than half a day",
+          "Value": "2"
+        },
+        {
+          "Label": "Nearly every day",
+          "Value": "3"
+        }
+      ],
+      "QuestionType": ""
+    },
+    {
+      "Ref": "/data/PHQ9_9",
+      "Label": "Over the last 2 weeks how often have you been bothered thoughts that you would be better off dead or of hurting yourself in some way?",
+      "Items": [
+        {
+          "Label": "Not at all",
+          "Value": "0"
+        },
+        {
+          "Label": "Several Days",
+          "Value": "1"
+        },
+        {
+          "Label": "More than half a day",
+          "Value": "2"
+        },
+        {
+          "Label": "Nearly every day",
+          "Value": "3"
+        }
+      ],
+      "QuestionType": ""
+    },
+    {
+      "Ref": "/data/PHQ9_10",
+      "Label": "If you checked off any problems, how difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?",
+      "Items": [
+        {
+          "Label": "Not Difficult at all",
+          "Value": "0"
+        },
+        {
+          "Label": "Somewhat difficult",
+          "Value": "1"
+        },
+        {
+          "Label": "Very difficult",
+          "Value": "2"
+        },
+        {
+          "Label": "Extremely difficult",
+          "Value": "3"
+        }
+      ],
+      "QuestionType": ""
+    }
+  ]
+
+}
